@@ -1,0 +1,1220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01889B9ADFD8CA131AF1B800 /* NonceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98DE0561BF9DC5A07F8BFC /* NonceValidator.swift */; };
+		02F100FCE53775E05B595329 /* TestLoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D107206C8A5901C1EE433D0 /* TestLoggerFactory.swift */; };
+		03F72FDD3076F1B7B178BF20 /* FBTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97782178887E0EF4C2F23DA8 /* FBTooltipView.swift */; };
+		04ED8A82B8F54EEB17496D33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E212B41FB34F2CB951BA5 /* FBSDKLoginKit.framework */; };
+		0534409A6E4537DA16C72FED /* LoginTooltipViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3EB70E07338ABDABCB28C /* LoginTooltipViewDelegate.swift */; };
+		061E48441E8B0F04A09AAD64 /* AuthenticationTokenCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6215D0F4CC1B41B341DEE130 /* AuthenticationTokenCreating.swift */; };
+		07653B54BDAC71DECF52CB91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747CF56DC79B0A68D6B0960E /* CoreGraphics.framework */; };
+		0811165E9DA80DF736538D67 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147556E62DE3401AE6E1A3CA /* MissingDependenciesError.swift */; };
+		08FD34FA6A795EE685D49BA0 /* LoginManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA5E8BBE7ED820D12A8E1F /* LoginManagerState.swift */; };
+		0B2CF624BD2EC89AB1E3DFB5 /* FBSDKLoginCompletionParametersBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 479801894A412B8D7ECB73F5 /* FBSDKLoginCompletionParametersBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CF8C9562CFBD0F0961A4D2E /* CodeVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD44F4EE8C19CEB3AA1D4A7 /* CodeVerifier.swift */; };
+		0F8CCCF8C1E770B2E45353BE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E0398DCAB998A252AE45174 /* PrivacyInfo.xcprivacy */; };
+		0FDCDF4BD72B6843602B9CE3 /* FBSDKLoginKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E52CF469915633BEFE149A /* FBSDKLoginKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105F60FE6D0041F3C6FA6111 /* TestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C731A72B4F8DEA31ED5EA /* TestLogger.swift */; };
+		1215C0EDF594F6050CD6EEB8 /* LoginConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A42934FF2748D41486418 /* LoginConfiguration.swift */; };
+		12591E093705DCC1D34A2D71 /* LoginButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7421625AE0A2FD3EF8A888 /* LoginButtonTests.swift */; };
+		13D58453540ECB6A9E4B82F2 /* TestDevicePoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90F66686BA4F9F8C12EFA6F /* TestDevicePoller.swift */; };
+		1644EF2FD6B22C8E1A078340 /* LoginUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0B74E18A41F4F622581FD /* LoginUtility.swift */; };
+		182A6BA08849B7CF273348CC /* FBSDKCoreKit-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978E7B0EFEEAFF279FC77F09 /* FBSDKCoreKit-Dynamic.framework */; };
+		1916BE930564FCBA13F04411 /* NonceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98DE0561BF9DC5A07F8BFC /* NonceValidator.swift */; };
+		1A839E55761B832D9CE8CF5D /* AuthenticationTokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35624BBF74B4803A33B78B /* AuthenticationTokenFactory.swift */; };
+		1B932E7BA38B1D9FE1D248AA /* FBSDKLoginErrorDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F595D57E0E555BC8984D7B /* FBSDKLoginErrorDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C852C47EEBB9303AAF01119 /* LoginCompleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723A9A5534975F16BADE629 /* LoginCompleting.swift */; };
+		1D70288DDD25D350D9B2EFD0 /* AuthenticationTokenFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B27719DD4C0A4AF4E23A777 /* AuthenticationTokenFactoryTests.swift */; };
+		1D8AE2A46406A58B45741C84 /* AuthenticationTokenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013BFAE094DB560A99F94C8 /* AuthenticationTokenHeader.swift */; };
+		20815A1C87433EAD27B0DCA1 /* LoginButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E70B8D0C5BE0AEE17E14EC /* LoginButtonDelegate.swift */; };
+		21D350F9ABACEE7DB1696A0F /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6AD0850CFFB411D154E09 /* DependentAsType.swift */; };
+		22260BB2308C9D623BE3D93D /* FBPermissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2617FFBFC11A263D2FA7339 /* FBPermissionTests.swift */; };
+		2308CF061E1C3D13AB74D7E4 /* ServerConfigurationProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2374A6B8D6A380BB8C9941 /* ServerConfigurationProviding.swift */; };
+		235BF9EEEE77FCC9B2E0F996 /* FBSDKLoginCompletionParametersBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 479801894A412B8D7ECB73F5 /* FBSDKLoginCompletionParametersBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2531EAC7468E2588E6ED2903 /* LoginEventLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08D8CE144FBE34474FFEC1 /* LoginEventLogging.swift */; };
+		25ABC1AF944FBA6D67A882CA /* LoginCompleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723A9A5534975F16BADE629 /* LoginCompleting.swift */; };
+		2611E7BF0C83C9E82FE061F1 /* FBSDKLoginErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 289886CF354858F5583E9EE1 /* FBSDKLoginErrorDomain.m */; };
+		2825E9A55803B9BA511C2616 /* DeviceLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7217E74AFC7D50E5B90561E /* DeviceLoginError.swift */; };
+		2A842BC0D45BA16084A7CCE3 /* DeviceLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7217E74AFC7D50E5B90561E /* DeviceLoginError.swift */; };
+		2B2F146F489AA2E607B65490 /* LoginProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE35912B7901FFDF122BF06 /* LoginProviding.swift */; };
+		2C8DDEE3C232DC867301D48A /* FBSDKLoginManagerLoginResultBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAAFA9C6AB3E6BA00539442 /* FBSDKLoginManagerLoginResultBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1FAFA0367B6CA6D405BBFE /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962FAE4DE1ED5079BB03322 /* LoginResult.swift */; };
+		2D5F1E6C8C8DCE5BF8E66A70 /* FBSDKLoginErrorDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F595D57E0E555BC8984D7B /* FBSDKLoginErrorDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBE670353F509FF47611D07 /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6AD0850CFFB411D154E09 /* DependentAsType.swift */; };
+		2DF16CF7D83908AD2BEE5C59 /* CodeVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983253AD2AFE67923EE7FCA /* CodeVerifierTests.swift */; };
+		30D1B17F6FFBB884D9A83A35 /* DevicePoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A974B3AF712BF7C78F6DEF1 /* DevicePoller.swift */; };
+		3297C02F746A7F844E890884 /* AppEvents+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E42EC530DD44056E2962A /* AppEvents+Internal.swift */; };
+		32EB868E5E0A09A7EB1A4D90 /* AuthenticationTokenHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5908AF7CD1905A7044BC4 /* AuthenticationTokenHeaderTests.swift */; };
+		35A4B0C3F1A924785B77D271 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B8C9B1DB252ABE3CF5206 /* LoginManager.swift */; };
+		376505851D2F4A90C3A2625F /* FBPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCA931503D700A1A6C85B /* FBPermission.swift */; };
+		3BAFE03832FC4BA3317B5794 /* LoginManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A450A46576626FBC21F3C390 /* LoginManagerTests.swift */; };
+		3E8FF9CAEBFEEF48B3339064 /* LoginErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653E7251C191291D960F999 /* LoginErrorTests.swift */; };
+		3EF5C897AE509AA0E47C6177 /* LoginAppEventNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFC83EE1990EE21BB28A07 /* LoginAppEventNames.swift */; };
+		400820ED7BD6FB70333054C7 /* TestAppEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DB47E996B35A9D7E326B9 /* TestAppEvents.swift */; };
+		40B7F04089F179E5F8B1EEA0 /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A34D9F056371883519747 /* ProfileFactory.swift */; };
+		41D6B19D53184E4637011A1A /* LoginErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE6FBAAC01D87FC1278BE9 /* LoginErrorDomain.swift */; };
+		426D05EF6B63F6E0D91532F0 /* IdentifiedLoginResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012318B9F7D7C8515F1EF9E3 /* IdentifiedLoginResultHandler.swift */; };
+		46F21858AABBC9AF2370662F /* DeviceLoginCodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A7493785737D7D96ED604 /* DeviceLoginCodeInfo.swift */; };
+		47290404EE1F73E8C8998776 /* LoginButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E70B8D0C5BE0AEE17E14EC /* LoginButtonDelegate.swift */; };
+		49C289992B8B54B72AB040EC /* LoginCompleterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F838DD776FA9621197490 /* LoginCompleterFactoryProtocol.swift */; };
+		4DF37E281E2B7153C2252B99 /* AuthenticationTokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35624BBF74B4803A33B78B /* AuthenticationTokenFactory.swift */; };
+		4F5BF86F2081351EE96D181B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E0398DCAB998A252AE45174 /* PrivacyInfo.xcprivacy */; };
+		4FCFCD1F3C67999F32E1D0AF /* FBLoginTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EBB1897156875F7FD719A /* FBLoginTooltipView.swift */; };
+		53B0049B37D7345C92A5014F /* LoginTooltipViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98A2F7533067C0BE92AFA0 /* LoginTooltipViewTests.swift */; };
+		53C1CD59E2F2644C290DAF61 /* TestLoginEventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93712E833EE124EFA630A55 /* TestLoginEventLogger.swift */; };
+		56E3FF56AC455F8FEA87BD01 /* TestAuthenticationTokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE713DDA263C05442A4A9FA6 /* TestAuthenticationTokenFactory.swift */; };
+		57B7C0ED5728DE89FC2F5B28 /* TestTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DDCED30699F7F8F8507E7D /* TestTools.framework */; };
+		59552B9E2AB7D6AFC212F3AE /* LoginManagerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A754F501383D75FF66F814 /* LoginManagerLoggerTests.swift */; };
+		5C009D35311B9FF18D076AB3 /* DefaultAudience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE16E1EB4A564E342A9B2DF /* DefaultAudience.swift */; };
+		5D57C8BCD60BCDF2A0FD9EB0 /* LoginTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29806EB2CEE6A3E563097A /* LoginTracking.swift */; };
+		5FFDCC41ACE4DCEEB47BD1C3 /* DeviceLoginManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DD01F503373C353DC1054 /* DeviceLoginManagerDelegate.swift */; };
+		6009A41FFE76B840D839627E /* TestServerConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B475D8138ACFA93525EF /* TestServerConfigurationProvider.swift */; };
+		605EB9381CA7024B25FE7361 /* LoginRecoveryAttempter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4EB641051178EFB55C168 /* LoginRecoveryAttempter.swift */; };
+		61789A2153B13572D68D0784 /* DeviceRequestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69339621C4AEB2CBA97BA10B /* DeviceRequestsHelper.swift */; };
+		61F2F29C4B21419797B48AFF /* LoginURLCompleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B39AB1D7C8E9F3E36DA5 /* LoginURLCompleter.swift */; };
+		645CE14A5F51C1748C292266 /* LoginRecoveryAttempterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D92AE4716E7FFD486C85FF2 /* LoginRecoveryAttempterTests.swift */; };
+		663821D57EFA697A7ED3D82F /* FBSDKLoginAuthType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8708FE884749F66E747E2BF8 /* FBSDKLoginAuthType.m */; };
+		6698F7383F03BAF4BF15965A /* DeviceLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA765D161024AE7D53938E9F /* DeviceLoginManager.swift */; };
+		68062D1B9C45C58CE57DCD7D /* AppEvents+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E42EC530DD44056E2962A /* AppEvents+Internal.swift */; };
+		69FAD8321794C589778F7765 /* FBTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97782178887E0EF4C2F23DA8 /* FBTooltipView.swift */; };
+		6B1A6907813B9B1B26ACE69E /* IdentifiedLoginResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012318B9F7D7C8515F1EF9E3 /* IdentifiedLoginResultHandler.swift */; };
+		6DEA909EFE65859DF6D6E952 /* FBLoginTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EBB1897156875F7FD719A /* FBLoginTooltipView.swift */; };
+		6EAE99F9D7EE00F469DBFFB7 /* LoginErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE6FBAAC01D87FC1278BE9 /* LoginErrorDomain.swift */; };
+		71476FDC80838FCD7B0D2C5E /* LoginConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F140D94E064F1323511B01BC /* LoginConfigurationTests.swift */; };
+		730C36A9EB86900FC88E5A80 /* TestUserInterfaceElementProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3F353294C6000BD946EBB /* TestUserInterfaceElementProvider.swift */; };
+		7D174364C4EDD1DFD7B89ABE /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751FD07656447859A848E72E /* FBSDKCoreKit_Basics-Dynamic.framework */; };
+		820B3DC9110B23AC77DFE982 /* DeviceLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA765D161024AE7D53938E9F /* DeviceLoginManager.swift */; };
+		855120D35E8559A33725F6AD /* DevicePollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1515275536A622077C05EBC /* DevicePollerTests.swift */; };
+		8657213100E48C2B37F2128E /* UserInterfaceElementProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E76A758A8E620E3C2DC08 /* UserInterfaceElementProviding.swift */; };
+		8B283D2A934C46A11DC6A93E /* FBSDKLoginErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 289886CF354858F5583E9EE1 /* FBSDKLoginErrorDomain.m */; };
+		8C0784D83FF1D9DAFC89C95D /* LoginTooltipViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3EB70E07338ABDABCB28C /* LoginTooltipViewDelegate.swift */; };
+		8CF76AC04ABF83845B529E34 /* AuthenticationTokenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013BFAE094DB560A99F94C8 /* AuthenticationTokenHeader.swift */; };
+		8D261F30EA26CD58105260C2 /* PrivacyManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965C329F7674252EECE073D /* PrivacyManifestTests.swift */; };
+		91B327697630B409B2E5D8BF /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A34D9F056371883519747 /* ProfileFactory.swift */; };
+		932D8034DE778249223587FF /* TestUserInterfaceStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227A186F0286742428A0DAED /* TestUserInterfaceStringProvider.swift */; };
+		947B5477069B2CE15BAEB30B /* DependentAsObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8C4D58406FB17E8D2296D /* DependentAsObjectTests.swift */; };
+		96BA9C51341F4D6D41EFE6FE /* DeviceLoginCodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A7493785737D7D96ED604 /* DeviceLoginCodeInfo.swift */; };
+		973A2E32A032434549603416 /* LoginCompleterFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24670E42D73FD164285CA3 /* LoginCompleterFactoryTests.swift */; };
+		98AEE0D988490866244F3B36 /* LoginConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A42934FF2748D41486418 /* LoginConfiguration.swift */; };
+		9A6BF84BE42ED611E5BC0EFB /* DeviceLoginManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512C8C8608105439BA26BC3 /* DeviceLoginManagerTests.swift */; };
+		9AF469132CBD4F5FDB1C1E66 /* TestLoginButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E14558B926D63868EAE9E9 /* TestLoginButtonDelegate.swift */; };
+		9B42418CFB2A826839582696 /* ProfileCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A872CBC9464AD5F4072390A /* ProfileCreating.swift */; };
+		9E2C093FDC5EF09716984BDB /* LoginRecoveryAttempter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4EB641051178EFB55C168 /* LoginRecoveryAttempter.swift */; };
+		A080E460068C002E9A3AD49B /* DependentAsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C818E46BE2522BAD5430AF /* DependentAsObject.swift */; };
+		A43DF1BCE1640EFD5054692D /* LoginURLCompleterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E1CD313BA64BE1229133B /* LoginURLCompleterTests.swift */; };
+		A488CC78527663146E667E32 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B8C9B1DB252ABE3CF5206 /* LoginManager.swift */; };
+		A654A66D65332A47BF1C2067 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E0AF3EA24FF234B04C3EF /* LoginError.swift */; };
+		A6698D6F218603C239D30D33 /* ServerConfigurationProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2374A6B8D6A380BB8C9941 /* ServerConfigurationProviding.swift */; };
+		A76064029506B4F6FF2C0E1D /* ServerConfigurationProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF610257122B0C5A9AEAF22 /* ServerConfigurationProvider+Internal.swift */; };
+		A7930E171E89B4AA75A8E464 /* UserInterfaceElementProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E76A758A8E620E3C2DC08 /* UserInterfaceElementProviding.swift */; };
+		AAE78985586991986467B14A /* LoginManagerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37628D0BD0DFF2C1813AB24D /* LoginManagerLogger.swift */; };
+		AC2749179C8B3F03C7E6CE9B /* FBSDKLoginKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E52CF469915633BEFE149A /* FBSDKLoginKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5DF2BEAF208CCEA8F3C621 /* DeviceLoginManagerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F81D51EB4CA17B0F4519F /* DeviceLoginManagerResult.swift */; };
+		AC8ABC9434A24CFF618ED618 /* LoginManagerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37628D0BD0DFF2C1813AB24D /* LoginManagerLogger.swift */; };
+		AD4464A77D85F9DF465C0D5F /* FBSDKLoginManagerLoginResultBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAAFA9C6AB3E6BA00539442 /* FBSDKLoginManagerLoginResultBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9FA14887D6E767BBB396C2 /* SampleRawLoginCompletionParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D5D87094EBCD3520D32C8 /* SampleRawLoginCompletionParameters.swift */; };
+		ADA5C65BB6A9EBCFBDEDF4C8 /* TestProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C89F84FAFD52C318BBD12D1 /* TestProfileFactory.swift */; };
+		AEF4F57733363B15A33CFF79 /* TestLoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637D9E87483FC4DEDC82E99 /* TestLoginProvider.swift */; };
+		B0533A5FD039EFD4DF988F38 /* LoginManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA5E8BBE7ED820D12A8E1F /* LoginManagerState.swift */; };
+		B44E7600213B35BF40D69B80 /* TooltipViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E5842EEE2A6D29A9F4F9C /* TooltipViewTests.swift */; };
+		B5011FB1EB01185987AD65E5 /* LoginManagerLoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4A07DB3E910B57B27181B /* LoginManagerLoginResult.swift */; };
+		B50F4D99F35E1626EE8DA113 /* UserInterfaceStringProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08610B640C86816F90E83528 /* UserInterfaceStringProviding.swift */; };
+		B5B2682D629583DA744816EA /* ProfileCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A872CBC9464AD5F4072390A /* ProfileCreating.swift */; };
+		B5B7966E894EEC1F4AA88A62 /* DependentAsTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89C0DF0D997E6E36E19C32 /* DependentAsTypeTests.swift */; };
+		B5F653CF37454A1F684C79FB /* InternalUtility+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72816E1B912A6BB9E763661B /* InternalUtility+Internal.swift */; };
+		B724265D9136C78753A0C69F /* FBSDKLoginAuthType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8708FE884749F66E747E2BF8 /* FBSDKLoginAuthType.m */; };
+		B7DD96CDAD965DFE150859DB /* LoginTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29806EB2CEE6A3E563097A /* LoginTracking.swift */; };
+		B9257E2604ECB708C0DE8E0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93FAC96C21B0AAF80907E6 /* UIKit.framework */; };
+		B99FB3E8B2E669BABF006C7F /* FBLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4683F125A8AF27F530C114 /* FBLoginButton.swift */; };
+		BB0C87603FCAB1AC28C6F20F /* FBSDKLoginAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 99356944FFDDE63EC1E62C9A /* FBSDKLoginAuthType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE216511BC9735EA8792EBAE /* LoginManagerLoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4A07DB3E910B57B27181B /* LoginManagerLoginResult.swift */; };
+		BE9417B0EDCA60000E76BC40 /* UserInterfaceStringProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08610B640C86816F90E83528 /* UserInterfaceStringProviding.swift */; };
+		BF02E30EAF9E63165C74086C /* DeviceRequestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69339621C4AEB2CBA97BA10B /* DeviceRequestsHelper.swift */; };
+		C029807354A05250E31718B3 /* CodeVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD44F4EE8C19CEB3AA1D4A7 /* CodeVerifier.swift */; };
+		C06DB59EE2D100CFE413F939 /* ServerConfigurationProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF610257122B0C5A9AEAF22 /* ServerConfigurationProvider+Internal.swift */; };
+		C36A0A929C9034F946649ABD /* AuthenticationTokenCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6215D0F4CC1B41B341DEE130 /* AuthenticationTokenCreating.swift */; };
+		C9FE6F4DB6840DA26293BDDD /* InternalUtility+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72816E1B912A6BB9E763661B /* InternalUtility+Internal.swift */; };
+		CBBBE5629BC48AA01BE84F2A /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E0AF3EA24FF234B04C3EF /* LoginError.swift */; };
+		CC82F621349DD1E4E0E975D9 /* LoginCompleterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB4CDBE64237EBA0DD9285 /* LoginCompleterFactory.swift */; };
+		CDE6C197DEBD38917FB468E4 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147556E62DE3401AE6E1A3CA /* MissingDependenciesError.swift */; };
+		CE54B19BD10023F9003B6B32 /* LoginCompleterFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F838DD776FA9621197490 /* LoginCompleterFactoryProtocol.swift */; };
+		CEBAE95260E866719A05C866 /* DeviceLoginCodeInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1EB0C5B34ED13ECB31B7 /* DeviceLoginCodeInfoTests.swift */; };
+		CFDA95A99D3575B3BE8B4213 /* LoginAppEventNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFC83EE1990EE21BB28A07 /* LoginAppEventNames.swift */; };
+		D0F66478E44813B1C13844FD /* TestDeviceLoginManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D4A4A95F3613AB08FE04E /* TestDeviceLoginManagerDelegate.swift */; };
+		D64EF4B969C3E1D844B27D18 /* DeviceRequestsHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8FF6D3F9F45B94023CD5F7 /* DeviceRequestsHelperTests.swift */; };
+		D6AC89328D7A3D317FBBA3A0 /* LoginURLCompleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B39AB1D7C8E9F3E36DA5 /* LoginURLCompleter.swift */; };
+		D81A0477BAB914D8F9A5726F /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962FAE4DE1ED5079BB03322 /* LoginResult.swift */; };
+		D85CB763C1F14657F8DEC15D /* DependentAsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C818E46BE2522BAD5430AF /* DependentAsObject.swift */; };
+		D93C2F8F62C5498900C24647 /* LoginUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096850EC56EACAF12FBDD8A4 /* LoginUtilityTests.swift */; };
+		D9EE3FA2BCB520E1403E9E6B /* TestLoginCompleterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7660AD69360EEDC4CB21DD /* TestLoginCompleterFactory.swift */; };
+		DB4355F8C647A390949EA160 /* NonceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18765EB63041587C78D8F0E /* NonceTests.swift */; };
+		DBF665ECA667D122785DDCD1 /* DevicePoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A974B3AF712BF7C78F6DEF1 /* DevicePoller.swift */; };
+		DF224FCC76F3AD3C200E79BC /* _LoginCompletionParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FC1262EE6A73CA096CC68 /* _LoginCompletionParameters.swift */; };
+		DF4C1B3D5121FC84F4F520C0 /* LoginUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0B74E18A41F4F622581FD /* LoginUtility.swift */; };
+		E3A6A8EBBF15551134B40DED /* DevicePolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C067C836F68455A2A6A93F /* DevicePolling.swift */; };
+		E4B6412797305B7D931E46E0 /* DeviceLoginManagerResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F12F2A57F64D93B0E3822 /* DeviceLoginManagerResultTests.swift */; };
+		E5990695F5F055A3983EBB4A /* FBSDKLoginAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 99356944FFDDE63EC1E62C9A /* FBSDKLoginAuthType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6D939FDC0FCED6B13A4CF02 /* DeviceLoginManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DD01F503373C353DC1054 /* DeviceLoginManagerDelegate.swift */; };
+		E865B306D02944FBE48F65ED /* LoginEventLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08D8CE144FBE34474FFEC1 /* LoginEventLogging.swift */; };
+		E9091F8731A85E97D294D9C7 /* ProfileFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F192ADAABA1B6B79B08BB828 /* ProfileFactoryTests.swift */; };
+		E9C42CACB1E69A5055B223B1 /* _LoginCompletionParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FC1262EE6A73CA096CC68 /* _LoginCompletionParameters.swift */; };
+		E9F4DF32F702C2FA5414DA5E /* TestLoginCompleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B454BAEAB76AF60AE5AF4 /* TestLoginCompleter.swift */; };
+		EDE3EB5B9ED3E5217EB80CF3 /* DevicePolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C067C836F68455A2A6A93F /* DevicePolling.swift */; };
+		F0DE88FFD77F0CCFDE76E9C1 /* FBPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934DCA931503D700A1A6C85B /* FBPermission.swift */; };
+		F406EC24D0A681E5FE4E5822 /* LoginCompleterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB4CDBE64237EBA0DD9285 /* LoginCompleterFactory.swift */; };
+		F4607DB88A086FA1F15C6867 /* FBLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4683F125A8AF27F530C114 /* FBLoginButton.swift */; };
+		FA001F70ACCB214BB3304D27 /* LoginProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE35912B7901FFDF122BF06 /* LoginProviding.swift */; };
+		FDE7BB4D98559CDEF494E838 /* DeviceLoginManagerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F81D51EB4CA17B0F4519F /* DeviceLoginManagerResult.swift */; };
+		FEC86FFD871342DDD81CA6A8 /* DefaultAudience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE16E1EB4A564E342A9B2DF /* DefaultAudience.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A710DBF96662BB21550A41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F903DA9EDB249CBB8F19937;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		379C4DD5B0941F44A08B0E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */;
+			proxyType = 2;
+			remoteGlobalIDString = 0F241E5E11B84E3DFB437AF1;
+			remoteInfo = "FBSDKCoreKit-Dynamic";
+		};
+		54A83092B0AA9E39D0EA7997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAC9AF88B394D79A77CE4A4 /* TestTools */;
+			proxyType = 2;
+			remoteGlobalIDString = E40113A8B281C6A908AEFA21;
+			remoteInfo = TestTools;
+		};
+		68CCA82B588F766910D61882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340536E1E4754D37433F5A5;
+			remoteInfo = "FBSDKCoreKit-Static";
+		};
+		73C09267130BAA04FE12E96D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */;
+			proxyType = 1;
+			remoteGlobalIDString = 95463755E22142396C3ADC06;
+			remoteInfo = "FBSDKCoreKit-Dynamic";
+		};
+		82EAB5D0F6AC26E7126031F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = FFB1B135B1C613F878D13E07;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		BE1F31138973C300799D0FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 563D03839E2E11C7E6A47941;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		C615FFB5CE6FE7554B77DF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C535C4C2B5A952183281BE8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8729A2AF427950409E6D975A;
+			remoteInfo = "FBSDKLoginKit-Dynamic";
+		};
+		DBA4DF135826BCB4680FBD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAC9AF88B394D79A77CE4A4 /* TestTools */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE1BFF550650C49854D563A;
+			remoteInfo = TestTools;
+		};
+		ECF23C6B8F28C59EC9D64C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = C82569269F0990FC515167BC;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		FB480E4D3C6A3C7A84493425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */;
+			proxyType = 2;
+			remoteGlobalIDString = F84B61CDD98A2F242F5BF044;
+			remoteInfo = "FBSDKCoreKit-Static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012318B9F7D7C8515F1EF9E3 /* IdentifiedLoginResultHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiedLoginResultHandler.swift; sourceTree = "<group>"; };
+		034E76A758A8E620E3C2DC08 /* UserInterfaceElementProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceElementProviding.swift; sourceTree = "<group>"; };
+		06164DD73DED901C9412CA4F /* FBSDKLoginKitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FBSDKLoginKitTests.xcconfig; sourceTree = "<group>"; };
+		0634D2BF1FF272DEF25C483D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08610B640C86816F90E83528 /* UserInterfaceStringProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceStringProviding.swift; sourceTree = "<group>"; };
+		096850EC56EACAF12FBDD8A4 /* LoginUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUtilityTests.swift; sourceTree = "<group>"; };
+		0A974B3AF712BF7C78F6DEF1 /* DevicePoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePoller.swift; sourceTree = "<group>"; };
+		0B27719DD4C0A4AF4E23A777 /* AuthenticationTokenFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenFactoryTests.swift; sourceTree = "<group>"; };
+		147556E62DE3401AE6E1A3CA /* MissingDependenciesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingDependenciesError.swift; sourceTree = "<group>"; };
+		1A29806EB2CEE6A3E563097A /* LoginTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTracking.swift; sourceTree = "<group>"; };
+		1A8D4A4A95F3613AB08FE04E /* TestDeviceLoginManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDeviceLoginManagerDelegate.swift; sourceTree = "<group>"; };
+		1EBE6FBAAC01D87FC1278BE9 /* LoginErrorDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorDomain.swift; sourceTree = "<group>"; };
+		1ED6AD0850CFFB411D154E09 /* DependentAsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsType.swift; sourceTree = "<group>"; };
+		1F017A3C6D523A1FDC91E412 /* FBSDKAccessToken+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKAccessToken+Testing.h"; sourceTree = "<group>"; };
+		1FF610257122B0C5A9AEAF22 /* ServerConfigurationProvider+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerConfigurationProvider+Internal.swift"; sourceTree = "<group>"; };
+		227A186F0286742428A0DAED /* TestUserInterfaceStringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserInterfaceStringProvider.swift; sourceTree = "<group>"; };
+		289886CF354858F5583E9EE1 /* FBSDKLoginErrorDomain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginErrorDomain.m; sourceTree = "<group>"; };
+		2CAC9AF88B394D79A77CE4A4 /* TestTools */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestTools; path = ../TestTools/TestTools.xcodeproj; sourceTree = "<group>"; };
+		2E5597C5C92D9C58AD015157 /* FBSDKAuthenticationTokenClaims+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKAuthenticationTokenClaims+Testing.h"; sourceTree = "<group>"; };
+		2F9B454BAEAB76AF60AE5AF4 /* TestLoginCompleter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoginCompleter.swift; sourceTree = "<group>"; };
+		2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit_Basics; path = ../FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.xcodeproj; sourceTree = "<group>"; };
+		32A754F501383D75FF66F814 /* LoginManagerLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerLoggerTests.swift; sourceTree = "<group>"; };
+		370D5D87094EBCD3520D32C8 /* SampleRawLoginCompletionParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRawLoginCompletionParameters.swift; sourceTree = "<group>"; };
+		37628D0BD0DFF2C1813AB24D /* LoginManagerLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerLogger.swift; sourceTree = "<group>"; };
+		3962FAE4DE1ED5079BB03322 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		3A872CBC9464AD5F4072390A /* ProfileCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreating.swift; sourceTree = "<group>"; };
+		3C89F84FAFD52C318BBD12D1 /* TestProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProfileFactory.swift; sourceTree = "<group>"; };
+		451E42EC530DD44056E2962A /* AppEvents+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppEvents+Internal.swift"; sourceTree = "<group>"; };
+		46F0B74E18A41F4F622581FD /* LoginUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUtility.swift; sourceTree = "<group>"; };
+		479801894A412B8D7ECB73F5 /* FBSDKLoginCompletionParametersBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginCompletionParametersBlock.h; sourceTree = "<group>"; };
+		4C7421625AE0A2FD3EF8A888 /* LoginButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonTests.swift; sourceTree = "<group>"; };
+		4E4683F125A8AF27F530C114 /* FBLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginButton.swift; sourceTree = "<group>"; };
+		516B8C9B1DB252ABE3CF5206 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		5DFFC83EE1990EE21BB28A07 /* LoginAppEventNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppEventNames.swift; sourceTree = "<group>"; };
+		6215D0F4CC1B41B341DEE130 /* AuthenticationTokenCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenCreating.swift; sourceTree = "<group>"; };
+		69339621C4AEB2CBA97BA10B /* DeviceRequestsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRequestsHelper.swift; sourceTree = "<group>"; };
+		6A067F51765A099770B3F067 /* FBSDKLoginKit-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBSDKLoginKit-Dynamic.xcconfig"; sourceTree = "<group>"; };
+		6D8FF6D3F9F45B94023CD5F7 /* DeviceRequestsHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRequestsHelperTests.swift; sourceTree = "<group>"; };
+		6D92AE4716E7FFD486C85FF2 /* LoginRecoveryAttempterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRecoveryAttempterTests.swift; sourceTree = "<group>"; };
+		6E7660AD69360EEDC4CB21DD /* TestLoginCompleterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoginCompleterFactory.swift; sourceTree = "<group>"; };
+		72816E1B912A6BB9E763661B /* InternalUtility+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InternalUtility+Internal.swift"; sourceTree = "<group>"; };
+		747CF56DC79B0A68D6B0960E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CD44F4EE8C19CEB3AA1D4A7 /* CodeVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifier.swift; sourceTree = "<group>"; };
+		7D08D8CE144FBE34474FFEC1 /* LoginEventLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEventLogging.swift; sourceTree = "<group>"; };
+		7D107206C8A5901C1EE433D0 /* TestLoggerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoggerFactory.swift; sourceTree = "<group>"; };
+		7DE35912B7901FFDF122BF06 /* LoginProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProviding.swift; sourceTree = "<group>"; };
+		7E0398DCAB998A252AE45174 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		829E0AF3EA24FF234B04C3EF /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		8637D9E87483FC4DEDC82E99 /* TestLoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoginProvider.swift; sourceTree = "<group>"; };
+		863F838DD776FA9621197490 /* LoginCompleterFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleterFactoryProtocol.swift; sourceTree = "<group>"; };
+		8708FE884749F66E747E2BF8 /* FBSDKLoginAuthType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginAuthType.m; sourceTree = "<group>"; };
+		8983253AD2AFE67923EE7FCA /* CodeVerifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifierTests.swift; sourceTree = "<group>"; };
+		8A98DE0561BF9DC5A07F8BFC /* NonceValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceValidator.swift; sourceTree = "<group>"; };
+		8B0DB47E996B35A9D7E326B9 /* TestAppEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppEvents.swift; sourceTree = "<group>"; };
+		8B35624BBF74B4803A33B78B /* AuthenticationTokenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenFactory.swift; sourceTree = "<group>"; };
+		8C24670E42D73FD164285CA3 /* LoginCompleterFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleterFactoryTests.swift; sourceTree = "<group>"; };
+		8CB68285AE016A32E312E9B6 /* FBSDKLoginKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FBSDKLoginKit.modulemap; sourceTree = "<group>"; };
+		9013BFAE094DB560A99F94C8 /* AuthenticationTokenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenHeader.swift; sourceTree = "<group>"; };
+		922E212B41FB34F2CB951BA5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934DCA931503D700A1A6C85B /* FBPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPermission.swift; sourceTree = "<group>"; };
+		97782178887E0EF4C2F23DA8 /* FBTooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTooltipView.swift; sourceTree = "<group>"; };
+		98C818E46BE2522BAD5430AF /* DependentAsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsObject.swift; sourceTree = "<group>"; };
+		99356944FFDDE63EC1E62C9A /* FBSDKLoginAuthType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginAuthType.h; sourceTree = "<group>"; };
+		9BAAFA9C6AB3E6BA00539442 /* FBSDKLoginManagerLoginResultBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginManagerLoginResultBlock.h; sourceTree = "<group>"; };
+		9E98A2F7533067C0BE92AFA0 /* LoginTooltipViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTooltipViewTests.swift; sourceTree = "<group>"; };
+		9EE16E1EB4A564E342A9B2DF /* DefaultAudience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAudience.swift; sourceTree = "<group>"; };
+		9F93FAC96C21B0AAF80907E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A11F1EB0C5B34ED13ECB31B7 /* DeviceLoginCodeInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginCodeInfoTests.swift; sourceTree = "<group>"; };
+		A19DD01F503373C353DC1054 /* DeviceLoginManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginManagerDelegate.swift; sourceTree = "<group>"; };
+		A450A46576626FBC21F3C390 /* LoginManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerTests.swift; sourceTree = "<group>"; };
+		A4E70B8D0C5BE0AEE17E14EC /* LoginButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonDelegate.swift; sourceTree = "<group>"; };
+		ACB9B475D8138ACFA93525EF /* TestServerConfigurationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestServerConfigurationProvider.swift; sourceTree = "<group>"; };
+		AD3C731A72B4F8DEA31ED5EA /* TestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLogger.swift; sourceTree = "<group>"; };
+		AD6A34D9F056371883519747 /* ProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactory.swift; sourceTree = "<group>"; };
+		B01A7493785737D7D96ED604 /* DeviceLoginCodeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginCodeInfo.swift; sourceTree = "<group>"; };
+		B0AB4CDBE64237EBA0DD9285 /* LoginCompleterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleterFactory.swift; sourceTree = "<group>"; };
+		B1515275536A622077C05EBC /* DevicePollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePollerTests.swift; sourceTree = "<group>"; };
+		B1D8C4D58406FB17E8D2296D /* DependentAsObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsObjectTests.swift; sourceTree = "<group>"; };
+		B3C067C836F68455A2A6A93F /* DevicePolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePolling.swift; sourceTree = "<group>"; };
+		B5A5908AF7CD1905A7044BC4 /* AuthenticationTokenHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenHeaderTests.swift; sourceTree = "<group>"; };
+		B7217E74AFC7D50E5B90561E /* DeviceLoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginError.swift; sourceTree = "<group>"; };
+		B89F81D51EB4CA17B0F4519F /* DeviceLoginManagerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginManagerResult.swift; sourceTree = "<group>"; };
+		B93712E833EE124EFA630A55 /* TestLoginEventLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoginEventLogger.swift; sourceTree = "<group>"; };
+		B965C329F7674252EECE073D /* PrivacyManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestTests.swift; sourceTree = "<group>"; };
+		BD89C0DF0D997E6E36E19C32 /* DependentAsTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsTypeTests.swift; sourceTree = "<group>"; };
+		BE713DDA263C05442A4A9FA6 /* TestAuthenticationTokenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAuthenticationTokenFactory.swift; sourceTree = "<group>"; };
+		C06FAF9CB90AC943E3EA9D7C /* FBSDKLoginKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FBSDKLoginKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18765EB63041587C78D8F0E /* NonceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceTests.swift; sourceTree = "<group>"; };
+		C26E1CD313BA64BE1229133B /* LoginURLCompleterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginURLCompleterTests.swift; sourceTree = "<group>"; };
+		C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit; path = ../FBSDKCoreKit/FBSDKCoreKit.xcodeproj; sourceTree = "<group>"; };
+		C3E52CF469915633BEFE149A /* FBSDKLoginKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginKit.h; sourceTree = "<group>"; };
+		C50E5842EEE2A6D29A9F4F9C /* TooltipViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipViewTests.swift; sourceTree = "<group>"; };
+		C63EBB1897156875F7FD719A /* FBLoginTooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginTooltipView.swift; sourceTree = "<group>"; };
+		C8945DA9872FCB14E407CA7A /* FBSDKLoginKit-Static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBSDKLoginKit-Static.xcconfig"; sourceTree = "<group>"; };
+		C8F595D57E0E555BC8984D7B /* FBSDKLoginErrorDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginErrorDomain.h; sourceTree = "<group>"; };
+		CA765D161024AE7D53938E9F /* DeviceLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginManager.swift; sourceTree = "<group>"; };
+		CF5A42934FF2748D41486418 /* LoginConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfiguration.swift; sourceTree = "<group>"; };
+		D0D9549C754F938034D4E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D11D8E03E1F03E2D1FC40F7E /* FBSDKDeviceLoginManagerResult+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKDeviceLoginManagerResult+Testing.h"; sourceTree = "<group>"; };
+		D653E7251C191291D960F999 /* LoginErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorTests.swift; sourceTree = "<group>"; };
+		D74FC1262EE6A73CA096CC68 /* _LoginCompletionParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _LoginCompletionParameters.swift; sourceTree = "<group>"; };
+		DCC3B39AB1D7C8E9F3E36DA5 /* LoginURLCompleter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginURLCompleter.swift; sourceTree = "<group>"; };
+		E0A3EB70E07338ABDABCB28C /* LoginTooltipViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTooltipViewDelegate.swift; sourceTree = "<group>"; };
+		E1E3F353294C6000BD946EBB /* TestUserInterfaceElementProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserInterfaceElementProvider.swift; sourceTree = "<group>"; };
+		E2E14558B926D63868EAE9E9 /* TestLoginButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoginButtonDelegate.swift; sourceTree = "<group>"; };
+		E371CC9186D8B26374F3B9C3 /* FBSDKLoginKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4E4A07DB3E910B57B27181B /* LoginManagerLoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerLoginResult.swift; sourceTree = "<group>"; };
+		E512C8C8608105439BA26BC3 /* DeviceLoginManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginManagerTests.swift; sourceTree = "<group>"; };
+		E723A9A5534975F16BADE629 /* LoginCompleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleting.swift; sourceTree = "<group>"; };
+		ED22316C110353CC49484F1A /* FBSDKInternalUtility+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKInternalUtility+Testing.h"; sourceTree = "<group>"; };
+		EFEA5E8BBE7ED820D12A8E1F /* LoginManagerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerState.swift; sourceTree = "<group>"; };
+		F140D94E064F1323511B01BC /* LoginConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurationTests.swift; sourceTree = "<group>"; };
+		F192ADAABA1B6B79B08BB828 /* ProfileFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactoryTests.swift; sourceTree = "<group>"; };
+		F2617FFBFC11A263D2FA7339 /* FBPermissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPermissionTests.swift; sourceTree = "<group>"; };
+		F60B5C865390267A92EE0237 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		F6DD4EBC3A5C8E5046B15A04 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		F71F12F2A57F64D93B0E3822 /* DeviceLoginManagerResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoginManagerResultTests.swift; sourceTree = "<group>"; };
+		F90F66686BA4F9F8C12EFA6F /* TestDevicePoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDevicePoller.swift; sourceTree = "<group>"; };
+		FB2374A6B8D6A380BB8C9941 /* ServerConfigurationProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfigurationProviding.swift; sourceTree = "<group>"; };
+		FEF4EB641051178EFB55C168 /* LoginRecoveryAttempter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRecoveryAttempter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4523F7CC9775F54665EDC687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D174364C4EDD1DFD7B89ABE /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */,
+				182A6BA08849B7CF273348CC /* FBSDKCoreKit-Dynamic.framework in Frameworks */,
+				B9257E2604ECB708C0DE8E0E /* UIKit.framework in Frameworks */,
+				07653B54BDAC71DECF52CB91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A6B0662D809D68C5D58317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ED8A82B8F54EEB17496D33 /* FBSDKLoginKit.framework in Frameworks */,
+				57B7C0ED5728DE89FC2F5B28 /* TestTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A73488BC776C8EAD413CAC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				370D5D87094EBCD3520D32C8 /* SampleRawLoginCompletionParameters.swift */,
+				BE713DDA263C05442A4A9FA6 /* TestAuthenticationTokenFactory.swift */,
+				1A8D4A4A95F3613AB08FE04E /* TestDeviceLoginManagerDelegate.swift */,
+				F90F66686BA4F9F8C12EFA6F /* TestDevicePoller.swift */,
+				AD3C731A72B4F8DEA31ED5EA /* TestLogger.swift */,
+				E2E14558B926D63868EAE9E9 /* TestLoginButtonDelegate.swift */,
+				B93712E833EE124EFA630A55 /* TestLoginEventLogger.swift */,
+				8637D9E87483FC4DEDC82E99 /* TestLoginProvider.swift */,
+				3C89F84FAFD52C318BBD12D1 /* TestProfileFactory.swift */,
+				ACB9B475D8138ACFA93525EF /* TestServerConfigurationProvider.swift */,
+				E1E3F353294C6000BD946EBB /* TestUserInterfaceElementProvider.swift */,
+				227A186F0286742428A0DAED /* TestUserInterfaceStringProvider.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2E5B4A6FAFB7085CE715089B /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				7CD44F4EE8C19CEB3AA1D4A7 /* CodeVerifier.swift */,
+				9EE16E1EB4A564E342A9B2DF /* DefaultAudience.swift */,
+				B01A7493785737D7D96ED604 /* DeviceLoginCodeInfo.swift */,
+				B7217E74AFC7D50E5B90561E /* DeviceLoginError.swift */,
+				CA765D161024AE7D53938E9F /* DeviceLoginManager.swift */,
+				A19DD01F503373C353DC1054 /* DeviceLoginManagerDelegate.swift */,
+				B89F81D51EB4CA17B0F4519F /* DeviceLoginManagerResult.swift */,
+				B3C067C836F68455A2A6A93F /* DevicePolling.swift */,
+				4E4683F125A8AF27F530C114 /* FBLoginButton.swift */,
+				C63EBB1897156875F7FD719A /* FBLoginTooltipView.swift */,
+				99356944FFDDE63EC1E62C9A /* FBSDKLoginAuthType.h */,
+				8708FE884749F66E747E2BF8 /* FBSDKLoginAuthType.m */,
+				479801894A412B8D7ECB73F5 /* FBSDKLoginCompletionParametersBlock.h */,
+				C8F595D57E0E555BC8984D7B /* FBSDKLoginErrorDomain.h */,
+				289886CF354858F5583E9EE1 /* FBSDKLoginErrorDomain.m */,
+				C3E52CF469915633BEFE149A /* FBSDKLoginKit.h */,
+				8CB68285AE016A32E312E9B6 /* FBSDKLoginKit.modulemap */,
+				9BAAFA9C6AB3E6BA00539442 /* FBSDKLoginManagerLoginResultBlock.h */,
+				97782178887E0EF4C2F23DA8 /* FBTooltipView.swift */,
+				5DFFC83EE1990EE21BB28A07 /* LoginAppEventNames.swift */,
+				A4E70B8D0C5BE0AEE17E14EC /* LoginButtonDelegate.swift */,
+				CF5A42934FF2748D41486418 /* LoginConfiguration.swift */,
+				829E0AF3EA24FF234B04C3EF /* LoginError.swift */,
+				1EBE6FBAAC01D87FC1278BE9 /* LoginErrorDomain.swift */,
+				516B8C9B1DB252ABE3CF5206 /* LoginManager.swift */,
+				E4E4A07DB3E910B57B27181B /* LoginManagerLoginResult.swift */,
+				7DE35912B7901FFDF122BF06 /* LoginProviding.swift */,
+				3962FAE4DE1ED5079BB03322 /* LoginResult.swift */,
+				E0A3EB70E07338ABDABCB28C /* LoginTooltipViewDelegate.swift */,
+				1A29806EB2CEE6A3E563097A /* LoginTracking.swift */,
+				7E0398DCAB998A252AE45174 /* PrivacyInfo.xcprivacy */,
+				D8799E321A407303E50D45B7 /* Internal */,
+			);
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		33A759A0A52C5BEC282A9302 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */,
+				2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */,
+				2CAC9AF88B394D79A77CE4A4 /* TestTools */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		402DCAD4E98634D0713B981F /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1F017A3C6D523A1FDC91E412 /* FBSDKAccessToken+Testing.h */,
+				2E5597C5C92D9C58AD015157 /* FBSDKAuthenticationTokenClaims+Testing.h */,
+				D11D8E03E1F03E2D1FC40F7E /* FBSDKDeviceLoginManagerResult+Testing.h */,
+				ED22316C110353CC49484F1A /* FBSDKInternalUtility+Testing.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		4F306B0F6D5FD0EC9C63BAD2 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6A067F51765A099770B3F067 /* FBSDKLoginKit-Dynamic.xcconfig */,
+				C8945DA9872FCB14E407CA7A /* FBSDKLoginKit-Static.xcconfig */,
+				06164DD73DED901C9412CA4F /* FBSDKLoginKitTests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		63AFE79D4EAAA6E9DB61C19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922E212B41FB34F2CB951BA5 /* FBSDKLoginKit.framework */,
+				0634D2BF1FF272DEF25C483D /* FBSDKLoginKit.framework */,
+				C06FAF9CB90AC943E3EA9D7C /* FBSDKLoginKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908128D71C36443B1BDAD055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747CF56DC79B0A68D6B0960E /* CoreGraphics.framework */,
+				9F93FAC96C21B0AAF80907E6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A090ED56463EC163852B95FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751FD07656447859A848E72E /* FBSDKCoreKit_Basics-Dynamic.framework */,
+				BEA0A08A734B79AA7200F781 /* FBSDKCoreKit_Basics-Static.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDFCDCD2D7A16052B1760E7 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F60B5C865390267A92EE0237 /* Debug.xcconfig */,
+				F6DD4EBC3A5C8E5046B15A04 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = Configurations/Shared/Configuration;
+			sourceTree = "<group>";
+		};
+		B4B327A0F5E2E73CF5BA7136 = {
+			isa = PBXGroup;
+			children = (
+				AEDFCDCD2D7A16052B1760E7 /* Configuration */,
+				4F306B0F6D5FD0EC9C63BAD2 /* Configurations */,
+				2E5B4A6FAFB7085CE715089B /* FBSDKLoginKit */,
+				EC173B0F9FA7E57EE7608E20 /* FBSDKLoginKitTests */,
+				908128D71C36443B1BDAD055 /* Frameworks */,
+				63AFE79D4EAAA6E9DB61C19A /* Products */,
+				33A759A0A52C5BEC282A9302 /* Projects */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		CAE5C4D67738D5F3CAE6DF60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDCED30699F7F8F8507E7D /* TestTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8799E321A407303E50D45B7 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				D74FC1262EE6A73CA096CC68 /* _LoginCompletionParameters.swift */,
+				451E42EC530DD44056E2962A /* AppEvents+Internal.swift */,
+				6215D0F4CC1B41B341DEE130 /* AuthenticationTokenCreating.swift */,
+				8B35624BBF74B4803A33B78B /* AuthenticationTokenFactory.swift */,
+				9013BFAE094DB560A99F94C8 /* AuthenticationTokenHeader.swift */,
+				98C818E46BE2522BAD5430AF /* DependentAsObject.swift */,
+				1ED6AD0850CFFB411D154E09 /* DependentAsType.swift */,
+				0A974B3AF712BF7C78F6DEF1 /* DevicePoller.swift */,
+				69339621C4AEB2CBA97BA10B /* DeviceRequestsHelper.swift */,
+				934DCA931503D700A1A6C85B /* FBPermission.swift */,
+				012318B9F7D7C8515F1EF9E3 /* IdentifiedLoginResultHandler.swift */,
+				72816E1B912A6BB9E763661B /* InternalUtility+Internal.swift */,
+				B0AB4CDBE64237EBA0DD9285 /* LoginCompleterFactory.swift */,
+				863F838DD776FA9621197490 /* LoginCompleterFactoryProtocol.swift */,
+				E723A9A5534975F16BADE629 /* LoginCompleting.swift */,
+				7D08D8CE144FBE34474FFEC1 /* LoginEventLogging.swift */,
+				37628D0BD0DFF2C1813AB24D /* LoginManagerLogger.swift */,
+				EFEA5E8BBE7ED820D12A8E1F /* LoginManagerState.swift */,
+				FEF4EB641051178EFB55C168 /* LoginRecoveryAttempter.swift */,
+				DCC3B39AB1D7C8E9F3E36DA5 /* LoginURLCompleter.swift */,
+				46F0B74E18A41F4F622581FD /* LoginUtility.swift */,
+				147556E62DE3401AE6E1A3CA /* MissingDependenciesError.swift */,
+				8A98DE0561BF9DC5A07F8BFC /* NonceValidator.swift */,
+				3A872CBC9464AD5F4072390A /* ProfileCreating.swift */,
+				AD6A34D9F056371883519747 /* ProfileFactory.swift */,
+				1FF610257122B0C5A9AEAF22 /* ServerConfigurationProvider+Internal.swift */,
+				FB2374A6B8D6A380BB8C9941 /* ServerConfigurationProviding.swift */,
+				034E76A758A8E620E3C2DC08 /* UserInterfaceElementProviding.swift */,
+				08610B640C86816F90E83528 /* UserInterfaceStringProviding.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		EC173B0F9FA7E57EE7608E20 /* FBSDKLoginKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B27719DD4C0A4AF4E23A777 /* AuthenticationTokenFactoryTests.swift */,
+				B5A5908AF7CD1905A7044BC4 /* AuthenticationTokenHeaderTests.swift */,
+				8983253AD2AFE67923EE7FCA /* CodeVerifierTests.swift */,
+				B1D8C4D58406FB17E8D2296D /* DependentAsObjectTests.swift */,
+				BD89C0DF0D997E6E36E19C32 /* DependentAsTypeTests.swift */,
+				A11F1EB0C5B34ED13ECB31B7 /* DeviceLoginCodeInfoTests.swift */,
+				F71F12F2A57F64D93B0E3822 /* DeviceLoginManagerResultTests.swift */,
+				E512C8C8608105439BA26BC3 /* DeviceLoginManagerTests.swift */,
+				B1515275536A622077C05EBC /* DevicePollerTests.swift */,
+				6D8FF6D3F9F45B94023CD5F7 /* DeviceRequestsHelperTests.swift */,
+				F2617FFBFC11A263D2FA7339 /* FBPermissionTests.swift */,
+				E371CC9186D8B26374F3B9C3 /* FBSDKLoginKitTests-Bridging-Header.h */,
+				D0D9549C754F938034D4E8BE /* Info.plist */,
+				4C7421625AE0A2FD3EF8A888 /* LoginButtonTests.swift */,
+				8C24670E42D73FD164285CA3 /* LoginCompleterFactoryTests.swift */,
+				F140D94E064F1323511B01BC /* LoginConfigurationTests.swift */,
+				D653E7251C191291D960F999 /* LoginErrorTests.swift */,
+				32A754F501383D75FF66F814 /* LoginManagerLoggerTests.swift */,
+				A450A46576626FBC21F3C390 /* LoginManagerTests.swift */,
+				6D92AE4716E7FFD486C85FF2 /* LoginRecoveryAttempterTests.swift */,
+				9E98A2F7533067C0BE92AFA0 /* LoginTooltipViewTests.swift */,
+				C26E1CD313BA64BE1229133B /* LoginURLCompleterTests.swift */,
+				096850EC56EACAF12FBDD8A4 /* LoginUtilityTests.swift */,
+				C18765EB63041587C78D8F0E /* NonceTests.swift */,
+				B965C329F7674252EECE073D /* PrivacyManifestTests.swift */,
+				F192ADAABA1B6B79B08BB828 /* ProfileFactoryTests.swift */,
+				8B0DB47E996B35A9D7E326B9 /* TestAppEvents.swift */,
+				7D107206C8A5901C1EE433D0 /* TestLoggerFactory.swift */,
+				2F9B454BAEAB76AF60AE5AF4 /* TestLoginCompleter.swift */,
+				6E7660AD69360EEDC4CB21DD /* TestLoginCompleterFactory.swift */,
+				C50E5842EEE2A6D29A9F4F9C /* TooltipViewTests.swift */,
+				07A73488BC776C8EAD413CAC /* Helpers */,
+				402DCAD4E98634D0713B981F /* Interfaces */,
+			);
+			path = FBSDKLoginKitTests;
+			sourceTree = "<group>";
+		};
+		FC038A8F34C54DB2735E1B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				978E7B0EFEEAFF279FC77F09 /* FBSDKCoreKit-Dynamic.framework */,
+				58D9714553A618457A183A5C /* FBSDKCoreKit-Static.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02E34BC359FD84C99D822A28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C87603FCAB1AC28C6F20F /* FBSDKLoginAuthType.h in Headers */,
+				235BF9EEEE77FCC9B2E0F996 /* FBSDKLoginCompletionParametersBlock.h in Headers */,
+				1B932E7BA38B1D9FE1D248AA /* FBSDKLoginErrorDomain.h in Headers */,
+				0FDCDF4BD72B6843602B9CE3 /* FBSDKLoginKit.h in Headers */,
+				AD4464A77D85F9DF465C0D5F /* FBSDKLoginManagerLoginResultBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF8FBA769575181A512AC2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5990695F5F055A3983EBB4A /* FBSDKLoginAuthType.h in Headers */,
+				0B2CF624BD2EC89AB1E3DFB5 /* FBSDKLoginCompletionParametersBlock.h in Headers */,
+				2D5F1E6C8C8DCE5BF8E66A70 /* FBSDKLoginErrorDomain.h in Headers */,
+				AC2749179C8B3F03C7E6CE9B /* FBSDKLoginKit.h in Headers */,
+				2C8DDEE3C232DC867301D48A /* FBSDKLoginManagerLoginResultBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E240564285BADCDB183B41E /* FBSDKLoginKit-Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BDFA9AB6812D537A16129F /* Build configuration list for PBXNativeTarget "FBSDKLoginKit-Static" */;
+			buildPhases = (
+				8BF65BFDBABA5D82D40102A9 /* Run Swiftlint */,
+				6DF8FBA769575181A512AC2F /* Headers */,
+				59366367E80A3DB9F4EC98C6 /* Sources */,
+				C6FCD880A42F70A76DE2C035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A836CD7ED724148532740D5A /* PBXTargetDependency */,
+				FC9BBDC58F676684D14B067E /* PBXTargetDependency */,
+			);
+			name = "FBSDKLoginKit-Static";
+			productName = "FBSDKLoginKit-Static";
+			productReference = 0634D2BF1FF272DEF25C483D /* FBSDKLoginKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8729A2AF427950409E6D975A /* FBSDKLoginKit-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC2D92A15F10B2AFBB65407 /* Build configuration list for PBXNativeTarget "FBSDKLoginKit-Dynamic" */;
+			buildPhases = (
+				8AE6CB122BAA167FED99DD14 /* Run Swiftlint */,
+				02E34BC359FD84C99D822A28 /* Headers */,
+				B1D2C7DB6B10F69CB05CB3A2 /* Sources */,
+				B17D852492C965A4F758D96C /* Resources */,
+				4523F7CC9775F54665EDC687 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35A60EB1DBF626114097F35 /* PBXTargetDependency */,
+				5513FBB7EE1CB9BBD4AFB149 /* PBXTargetDependency */,
+			);
+			name = "FBSDKLoginKit-Dynamic";
+			productName = "FBSDKLoginKit-Dynamic";
+			productReference = 922E212B41FB34F2CB951BA5 /* FBSDKLoginKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA4533F3932D71F74932EC94 /* FBSDKLoginKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46572B72A398CFAB5A80294A /* Build configuration list for PBXNativeTarget "FBSDKLoginKitTests" */;
+			buildPhases = (
+				657BEE4EEC79632AD1CB7C0F /* Sources */,
+				F7A6B0662D809D68C5D58317 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A574035A809789D01647984 /* PBXTargetDependency */,
+				D7CED702F7506838F722F35B /* PBXTargetDependency */,
+			);
+			name = FBSDKLoginKitTests;
+			productName = FBSDKLoginKitTests;
+			productReference = C06FAF9CB90AC943E3EA9D7C /* FBSDKLoginKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C535C4C2B5A952183281BE8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 526009B9CC6D01B3FFBA4912 /* Build configuration list for PBXProject "FBSDKLoginKit" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B4B327A0F5E2E73CF5BA7136;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC038A8F34C54DB2735E1B7C /* Products */;
+					ProjectRef = C338D68292DBAE21D2A5C363 /* FBSDKCoreKit */;
+				},
+				{
+					ProductGroup = A090ED56463EC163852B95FF /* Products */;
+					ProjectRef = 2FA4AF0648972F6E0F2269F3 /* FBSDKCoreKit_Basics */;
+				},
+				{
+					ProductGroup = CAE5C4D67738D5F3CAE6DF60 /* Products */;
+					ProjectRef = 2CAC9AF88B394D79A77CE4A4 /* TestTools */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8729A2AF427950409E6D975A /* FBSDKLoginKit-Dynamic */,
+				1E240564285BADCDB183B41E /* FBSDKLoginKit-Static */,
+				EA4533F3932D71F74932EC94 /* FBSDKLoginKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		58D9714553A618457A183A5C /* FBSDKCoreKit-Static.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit-Static.framework";
+			remoteRef = FB480E4D3C6A3C7A84493425 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		751FD07656447859A848E72E /* FBSDKCoreKit_Basics-Dynamic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Dynamic.framework";
+			remoteRef = ECF23C6B8F28C59EC9D64C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		978E7B0EFEEAFF279FC77F09 /* FBSDKCoreKit-Dynamic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit-Dynamic.framework";
+			remoteRef = 379C4DD5B0941F44A08B0E8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6DDCED30699F7F8F8507E7D /* TestTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestTools.framework;
+			remoteRef = 54A83092B0AA9E39D0EA7997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEA0A08A734B79AA7200F781 /* FBSDKCoreKit_Basics-Static.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Static.framework";
+			remoteRef = 82EAB5D0F6AC26E7126031F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17D852492C965A4F758D96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5BF86F2081351EE96D181B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FCD880A42F70A76DE2C035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8CCCF8C1E770B2E45353BE /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AE6CB122BAA167FED99DD14 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+		8BF65BFDBABA5D82D40102A9 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59366367E80A3DB9F4EC98C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68062D1B9C45C58CE57DCD7D /* AppEvents+Internal.swift in Sources */,
+				C36A0A929C9034F946649ABD /* AuthenticationTokenCreating.swift in Sources */,
+				4DF37E281E2B7153C2252B99 /* AuthenticationTokenFactory.swift in Sources */,
+				1D8AE2A46406A58B45741C84 /* AuthenticationTokenHeader.swift in Sources */,
+				C029807354A05250E31718B3 /* CodeVerifier.swift in Sources */,
+				FEC86FFD871342DDD81CA6A8 /* DefaultAudience.swift in Sources */,
+				D85CB763C1F14657F8DEC15D /* DependentAsObject.swift in Sources */,
+				21D350F9ABACEE7DB1696A0F /* DependentAsType.swift in Sources */,
+				46F21858AABBC9AF2370662F /* DeviceLoginCodeInfo.swift in Sources */,
+				2825E9A55803B9BA511C2616 /* DeviceLoginError.swift in Sources */,
+				820B3DC9110B23AC77DFE982 /* DeviceLoginManager.swift in Sources */,
+				5FFDCC41ACE4DCEEB47BD1C3 /* DeviceLoginManagerDelegate.swift in Sources */,
+				AC5DF2BEAF208CCEA8F3C621 /* DeviceLoginManagerResult.swift in Sources */,
+				30D1B17F6FFBB884D9A83A35 /* DevicePoller.swift in Sources */,
+				E3A6A8EBBF15551134B40DED /* DevicePolling.swift in Sources */,
+				61789A2153B13572D68D0784 /* DeviceRequestsHelper.swift in Sources */,
+				F4607DB88A086FA1F15C6867 /* FBLoginButton.swift in Sources */,
+				4FCFCD1F3C67999F32E1D0AF /* FBLoginTooltipView.swift in Sources */,
+				F0DE88FFD77F0CCFDE76E9C1 /* FBPermission.swift in Sources */,
+				B724265D9136C78753A0C69F /* FBSDKLoginAuthType.m in Sources */,
+				2611E7BF0C83C9E82FE061F1 /* FBSDKLoginErrorDomain.m in Sources */,
+				69FAD8321794C589778F7765 /* FBTooltipView.swift in Sources */,
+				6B1A6907813B9B1B26ACE69E /* IdentifiedLoginResultHandler.swift in Sources */,
+				C9FE6F4DB6840DA26293BDDD /* InternalUtility+Internal.swift in Sources */,
+				CFDA95A99D3575B3BE8B4213 /* LoginAppEventNames.swift in Sources */,
+				20815A1C87433EAD27B0DCA1 /* LoginButtonDelegate.swift in Sources */,
+				CC82F621349DD1E4E0E975D9 /* LoginCompleterFactory.swift in Sources */,
+				49C289992B8B54B72AB040EC /* LoginCompleterFactoryProtocol.swift in Sources */,
+				1C852C47EEBB9303AAF01119 /* LoginCompleting.swift in Sources */,
+				1215C0EDF594F6050CD6EEB8 /* LoginConfiguration.swift in Sources */,
+				A654A66D65332A47BF1C2067 /* LoginError.swift in Sources */,
+				6EAE99F9D7EE00F469DBFFB7 /* LoginErrorDomain.swift in Sources */,
+				2531EAC7468E2588E6ED2903 /* LoginEventLogging.swift in Sources */,
+				A488CC78527663146E667E32 /* LoginManager.swift in Sources */,
+				AAE78985586991986467B14A /* LoginManagerLogger.swift in Sources */,
+				B5011FB1EB01185987AD65E5 /* LoginManagerLoginResult.swift in Sources */,
+				B0533A5FD039EFD4DF988F38 /* LoginManagerState.swift in Sources */,
+				2B2F146F489AA2E607B65490 /* LoginProviding.swift in Sources */,
+				605EB9381CA7024B25FE7361 /* LoginRecoveryAttempter.swift in Sources */,
+				D81A0477BAB914D8F9A5726F /* LoginResult.swift in Sources */,
+				8C0784D83FF1D9DAFC89C95D /* LoginTooltipViewDelegate.swift in Sources */,
+				5D57C8BCD60BCDF2A0FD9EB0 /* LoginTracking.swift in Sources */,
+				61F2F29C4B21419797B48AFF /* LoginURLCompleter.swift in Sources */,
+				DF4C1B3D5121FC84F4F520C0 /* LoginUtility.swift in Sources */,
+				0811165E9DA80DF736538D67 /* MissingDependenciesError.swift in Sources */,
+				1916BE930564FCBA13F04411 /* NonceValidator.swift in Sources */,
+				B5B2682D629583DA744816EA /* ProfileCreating.swift in Sources */,
+				91B327697630B409B2E5D8BF /* ProfileFactory.swift in Sources */,
+				C06DB59EE2D100CFE413F939 /* ServerConfigurationProvider+Internal.swift in Sources */,
+				A6698D6F218603C239D30D33 /* ServerConfigurationProviding.swift in Sources */,
+				8657213100E48C2B37F2128E /* UserInterfaceElementProviding.swift in Sources */,
+				B50F4D99F35E1626EE8DA113 /* UserInterfaceStringProviding.swift in Sources */,
+				E9C42CACB1E69A5055B223B1 /* _LoginCompletionParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657BEE4EEC79632AD1CB7C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D70288DDD25D350D9B2EFD0 /* AuthenticationTokenFactoryTests.swift in Sources */,
+				32EB868E5E0A09A7EB1A4D90 /* AuthenticationTokenHeaderTests.swift in Sources */,
+				2DF16CF7D83908AD2BEE5C59 /* CodeVerifierTests.swift in Sources */,
+				947B5477069B2CE15BAEB30B /* DependentAsObjectTests.swift in Sources */,
+				B5B7966E894EEC1F4AA88A62 /* DependentAsTypeTests.swift in Sources */,
+				CEBAE95260E866719A05C866 /* DeviceLoginCodeInfoTests.swift in Sources */,
+				E4B6412797305B7D931E46E0 /* DeviceLoginManagerResultTests.swift in Sources */,
+				9A6BF84BE42ED611E5BC0EFB /* DeviceLoginManagerTests.swift in Sources */,
+				855120D35E8559A33725F6AD /* DevicePollerTests.swift in Sources */,
+				D64EF4B969C3E1D844B27D18 /* DeviceRequestsHelperTests.swift in Sources */,
+				22260BB2308C9D623BE3D93D /* FBPermissionTests.swift in Sources */,
+				12591E093705DCC1D34A2D71 /* LoginButtonTests.swift in Sources */,
+				973A2E32A032434549603416 /* LoginCompleterFactoryTests.swift in Sources */,
+				71476FDC80838FCD7B0D2C5E /* LoginConfigurationTests.swift in Sources */,
+				3E8FF9CAEBFEEF48B3339064 /* LoginErrorTests.swift in Sources */,
+				59552B9E2AB7D6AFC212F3AE /* LoginManagerLoggerTests.swift in Sources */,
+				3BAFE03832FC4BA3317B5794 /* LoginManagerTests.swift in Sources */,
+				645CE14A5F51C1748C292266 /* LoginRecoveryAttempterTests.swift in Sources */,
+				53B0049B37D7345C92A5014F /* LoginTooltipViewTests.swift in Sources */,
+				A43DF1BCE1640EFD5054692D /* LoginURLCompleterTests.swift in Sources */,
+				D93C2F8F62C5498900C24647 /* LoginUtilityTests.swift in Sources */,
+				DB4355F8C647A390949EA160 /* NonceTests.swift in Sources */,
+				8D261F30EA26CD58105260C2 /* PrivacyManifestTests.swift in Sources */,
+				E9091F8731A85E97D294D9C7 /* ProfileFactoryTests.swift in Sources */,
+				AD9FA14887D6E767BBB396C2 /* SampleRawLoginCompletionParameters.swift in Sources */,
+				400820ED7BD6FB70333054C7 /* TestAppEvents.swift in Sources */,
+				56E3FF56AC455F8FEA87BD01 /* TestAuthenticationTokenFactory.swift in Sources */,
+				D0F66478E44813B1C13844FD /* TestDeviceLoginManagerDelegate.swift in Sources */,
+				13D58453540ECB6A9E4B82F2 /* TestDevicePoller.swift in Sources */,
+				105F60FE6D0041F3C6FA6111 /* TestLogger.swift in Sources */,
+				02F100FCE53775E05B595329 /* TestLoggerFactory.swift in Sources */,
+				9AF469132CBD4F5FDB1C1E66 /* TestLoginButtonDelegate.swift in Sources */,
+				E9F4DF32F702C2FA5414DA5E /* TestLoginCompleter.swift in Sources */,
+				D9EE3FA2BCB520E1403E9E6B /* TestLoginCompleterFactory.swift in Sources */,
+				53C1CD59E2F2644C290DAF61 /* TestLoginEventLogger.swift in Sources */,
+				AEF4F57733363B15A33CFF79 /* TestLoginProvider.swift in Sources */,
+				ADA5C65BB6A9EBCFBDEDF4C8 /* TestProfileFactory.swift in Sources */,
+				6009A41FFE76B840D839627E /* TestServerConfigurationProvider.swift in Sources */,
+				730C36A9EB86900FC88E5A80 /* TestUserInterfaceElementProvider.swift in Sources */,
+				932D8034DE778249223587FF /* TestUserInterfaceStringProvider.swift in Sources */,
+				B44E7600213B35BF40D69B80 /* TooltipViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D2C7DB6B10F69CB05CB3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3297C02F746A7F844E890884 /* AppEvents+Internal.swift in Sources */,
+				061E48441E8B0F04A09AAD64 /* AuthenticationTokenCreating.swift in Sources */,
+				1A839E55761B832D9CE8CF5D /* AuthenticationTokenFactory.swift in Sources */,
+				8CF76AC04ABF83845B529E34 /* AuthenticationTokenHeader.swift in Sources */,
+				0CF8C9562CFBD0F0961A4D2E /* CodeVerifier.swift in Sources */,
+				5C009D35311B9FF18D076AB3 /* DefaultAudience.swift in Sources */,
+				A080E460068C002E9A3AD49B /* DependentAsObject.swift in Sources */,
+				2DBE670353F509FF47611D07 /* DependentAsType.swift in Sources */,
+				96BA9C51341F4D6D41EFE6FE /* DeviceLoginCodeInfo.swift in Sources */,
+				2A842BC0D45BA16084A7CCE3 /* DeviceLoginError.swift in Sources */,
+				6698F7383F03BAF4BF15965A /* DeviceLoginManager.swift in Sources */,
+				E6D939FDC0FCED6B13A4CF02 /* DeviceLoginManagerDelegate.swift in Sources */,
+				FDE7BB4D98559CDEF494E838 /* DeviceLoginManagerResult.swift in Sources */,
+				DBF665ECA667D122785DDCD1 /* DevicePoller.swift in Sources */,
+				EDE3EB5B9ED3E5217EB80CF3 /* DevicePolling.swift in Sources */,
+				BF02E30EAF9E63165C74086C /* DeviceRequestsHelper.swift in Sources */,
+				B99FB3E8B2E669BABF006C7F /* FBLoginButton.swift in Sources */,
+				6DEA909EFE65859DF6D6E952 /* FBLoginTooltipView.swift in Sources */,
+				376505851D2F4A90C3A2625F /* FBPermission.swift in Sources */,
+				663821D57EFA697A7ED3D82F /* FBSDKLoginAuthType.m in Sources */,
+				8B283D2A934C46A11DC6A93E /* FBSDKLoginErrorDomain.m in Sources */,
+				03F72FDD3076F1B7B178BF20 /* FBTooltipView.swift in Sources */,
+				426D05EF6B63F6E0D91532F0 /* IdentifiedLoginResultHandler.swift in Sources */,
+				B5F653CF37454A1F684C79FB /* InternalUtility+Internal.swift in Sources */,
+				3EF5C897AE509AA0E47C6177 /* LoginAppEventNames.swift in Sources */,
+				47290404EE1F73E8C8998776 /* LoginButtonDelegate.swift in Sources */,
+				F406EC24D0A681E5FE4E5822 /* LoginCompleterFactory.swift in Sources */,
+				CE54B19BD10023F9003B6B32 /* LoginCompleterFactoryProtocol.swift in Sources */,
+				25ABC1AF944FBA6D67A882CA /* LoginCompleting.swift in Sources */,
+				98AEE0D988490866244F3B36 /* LoginConfiguration.swift in Sources */,
+				CBBBE5629BC48AA01BE84F2A /* LoginError.swift in Sources */,
+				41D6B19D53184E4637011A1A /* LoginErrorDomain.swift in Sources */,
+				E865B306D02944FBE48F65ED /* LoginEventLogging.swift in Sources */,
+				35A4B0C3F1A924785B77D271 /* LoginManager.swift in Sources */,
+				AC8ABC9434A24CFF618ED618 /* LoginManagerLogger.swift in Sources */,
+				BE216511BC9735EA8792EBAE /* LoginManagerLoginResult.swift in Sources */,
+				08FD34FA6A795EE685D49BA0 /* LoginManagerState.swift in Sources */,
+				FA001F70ACCB214BB3304D27 /* LoginProviding.swift in Sources */,
+				9E2C093FDC5EF09716984BDB /* LoginRecoveryAttempter.swift in Sources */,
+				2D1FAFA0367B6CA6D405BBFE /* LoginResult.swift in Sources */,
+				0534409A6E4537DA16C72FED /* LoginTooltipViewDelegate.swift in Sources */,
+				B7DD96CDAD965DFE150859DB /* LoginTracking.swift in Sources */,
+				D6AC89328D7A3D317FBBA3A0 /* LoginURLCompleter.swift in Sources */,
+				1644EF2FD6B22C8E1A078340 /* LoginUtility.swift in Sources */,
+				CDE6C197DEBD38917FB468E4 /* MissingDependenciesError.swift in Sources */,
+				01889B9ADFD8CA131AF1B800 /* NonceValidator.swift in Sources */,
+				9B42418CFB2A826839582696 /* ProfileCreating.swift in Sources */,
+				40B7F04089F179E5F8B1EEA0 /* ProfileFactory.swift in Sources */,
+				A76064029506B4F6FF2C0E1D /* ServerConfigurationProvider+Internal.swift in Sources */,
+				2308CF061E1C3D13AB74D7E4 /* ServerConfigurationProviding.swift in Sources */,
+				A7930E171E89B4AA75A8E464 /* UserInterfaceElementProviding.swift in Sources */,
+				BE9417B0EDCA60000E76BC40 /* UserInterfaceStringProviding.swift in Sources */,
+				DF224FCC76F3AD3C200E79BC /* _LoginCompletionParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A574035A809789D01647984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8729A2AF427950409E6D975A /* FBSDKLoginKit-Dynamic */;
+			targetProxy = C615FFB5CE6FE7554B77DF97 /* PBXContainerItemProxy */;
+		};
+		5513FBB7EE1CB9BBD4AFB149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit-Dynamic";
+			targetProxy = 73C09267130BAA04FE12E96D /* PBXContainerItemProxy */;
+		};
+		A35A60EB1DBF626114097F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Dynamic";
+			targetProxy = BE1F31138973C300799D0FD5 /* PBXContainerItemProxy */;
+		};
+		A836CD7ED724148532740D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Static";
+			targetProxy = 15A710DBF96662BB21550A41 /* PBXContainerItemProxy */;
+		};
+		D7CED702F7506838F722F35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestTools;
+			targetProxy = DBA4DF135826BCB4680FBD7F /* PBXContainerItemProxy */;
+		};
+		FC9BBDC58F676684D14B067E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit-Static";
+			targetProxy = 68CCA82B588F766910D61882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65AFE89BEA79151852945B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A067F51765A099770B3F067 /* FBSDKLoginKit-Dynamic.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKLoginKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		69635921552E47AF9ECF8ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A067F51765A099770B3F067 /* FBSDKLoginKit-Dynamic.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKLoginKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6CD57CE642D117D79B95D32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60B5C865390267A92EE0237 /* Debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		829EE7927A35A9F181F88BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DD4EBC3A5C8E5046B15A04 /* Release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		90A0EC2E11BF8FD6A2DB060D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06164DD73DED901C9412CA4F /* FBSDKLoginKitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = FBSDKLoginKitTests/Info.plist;
+			};
+			name = Release;
+		};
+		9742772185F4E9B0990D2CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06164DD73DED901C9412CA4F /* FBSDKLoginKitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = FBSDKLoginKitTests/Info.plist;
+			};
+			name = Debug;
+		};
+		EBD7A97E68410441FE8061EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8945DA9872FCB14E407CA7A /* FBSDKLoginKit-Static.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKLoginKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		ED655CF45F6B7E7903B7E2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8945DA9872FCB14E407CA7A /* FBSDKLoginKit-Static.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKLoginKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35BDFA9AB6812D537A16129F /* Build configuration list for PBXNativeTarget "FBSDKLoginKit-Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7A97E68410441FE8061EA /* Debug */,
+				ED655CF45F6B7E7903B7E2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46572B72A398CFAB5A80294A /* Build configuration list for PBXNativeTarget "FBSDKLoginKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9742772185F4E9B0990D2CD7 /* Debug */,
+				90A0EC2E11BF8FD6A2DB060D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		526009B9CC6D01B3FFBA4912 /* Build configuration list for PBXProject "FBSDKLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD57CE642D117D79B95D32A /* Debug */,
+				829EE7927A35A9F181F88BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8EC2D92A15F10B2AFBB65407 /* Build configuration list for PBXNativeTarget "FBSDKLoginKit-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AFE89BEA79151852945B9A /* Debug */,
+				69635921552E47AF9ECF8ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C535C4C2B5A952183281BE8A /* Project object */;
+}

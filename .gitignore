@@ -9,12 +9,6 @@ DerivedData/
 
 ## Ignore generated project files.
 ## Eventually ignore all project files once they are all generated.
-FBAEMKit/FBAEMKit.xcodeproj
-FBSDKCoreKit/FBSDKCoreKit.xcodeproj
-FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.xcodeproj
-FBSDKLoginKit/FBSDKLoginKit.xcodeproj
-FBSDKShareKit/FBSDKShareKit.xcodeproj
-FBSDKGamingServicesKit/FBSDKGamingServicesKit.xcodeproj
 
 ## Various settings
 *.pbxuser

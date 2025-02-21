@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022816B2B62939B1899134FD /* SharePhotoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6EF2EDF1633762A76EAC /* SharePhotoContent.swift */; };
+		03FDB0376160D5C5C22D062D /* FBSDKShareBridgeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B677C242555317630C6DD51A /* FBSDKShareBridgeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04573B1CE1F0F1D187A24315 /* ShareMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29EADA0EF3BB41137B2EDC /* ShareMedia.swift */; };
+		07261F7119911A60822F6617 /* DependentAsTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ECA9F10BE6555A0AC6B015 /* DependentAsTypeTests.swift */; };
+		07269E9E90ECCEFAECBDD89C /* TestMediaLibrarySearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B195C255400A75332DA68 /* TestMediaLibrarySearcher.swift */; };
+		0771982418AE1802D0BB3AE5 /* ShareAppEventParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB792D94D61573D21E16CE5 /* ShareAppEventParameters.swift */; };
+		0776835408486139A82D061E /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9968A99E6CA8C05B79EB6C2 /* Sharing.swift */; };
+		084246A80BD1DAE6C23AE0D7 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F41599E065FE6A85EA3DA70 /* FBSDKCoreKit_Basics-Dynamic.framework */; };
+		09C23657328D810941313871 /* ShareCameraEffectContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53EE6E67E2605133BFFAA0 /* ShareCameraEffectContentTests.swift */; };
+		0A14E1D9DFD664414ADA30C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41DC65FA8F3AE2A363971C /* UIKit.framework */; };
+		0B48E56A0BD53683F49769EA /* ShareDialogConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73358B566B318A14CD966B8 /* ShareDialogConfiguration.swift */; };
+		0E334B2E07FA01860504B905 /* SocialComposeViewControllerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76B4B1770FE9F60A8DDFD63 /* SocialComposeViewControllerFactoryTests.swift */; };
+		0E918C9C9FAB144C9880DB2D /* ShareMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BC3E80F228148B110DDDA /* ShareMediaContent.swift */; };
+		0FC0265D4A466D0DABA091C1 /* FBShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907C37326E7F6E367E578CB /* FBShareButton.swift */; };
+		11E60EF199F7D7522184E933 /* HashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A4C7C29F4C167AA033C3 /* HashtagTests.swift */; };
+		12012A2C381C1D39D266495C /* Hashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A4EB1FD7D1F1020483386 /* Hashtag.swift */; };
+		177999DC97F00198DD0E4AD6 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708983F43EA9643CE081AF2A /* MissingDependenciesError.swift */; };
+		1CB90BDA73110D8D03A8717E /* MessageDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834244DA0143438A0B14290A /* MessageDialogTests.swift */; };
+		1E98FDEFA25D1AEC0B70F742 /* ShareInternalURLOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6770955EA9C8AC371B44FF0E /* ShareInternalURLOpening.swift */; };
+		20F22732ADE140A87D94909C /* SharingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9504B55E1943EA86F9205A97 /* SharingButton.swift */; };
+		2230E8D789322D84A383A3EE /* ContentFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BFAEA76358CAF2AAADA769 /* ContentFlagsTests.swift */; };
+		25ACE21D897235686176E559 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E16E4FC5A102CA54A4D82338 /* PrivacyInfo.xcprivacy */; };
+		269B357300F1FD846E752F56 /* FBSDKShareErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F916C7C8BDECD02DDACFC6 /* FBSDKShareErrorDomain.m */; };
+		280A01F34BA96632DD276171 /* MediaLibrarySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561A521198C426CE90F25D /* MediaLibrarySearching.swift */; };
+		28DA9B803CBA3D703E874A22 /* TestMessageDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEC8AB22A40D38D2E893FC3 /* TestMessageDialog.swift */; };
+		29AC8DF7816511E7F66D74DF /* SharePhotoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6EF2EDF1633762A76EAC /* SharePhotoContent.swift */; };
+		2A46D93BB222C23F732C0281 /* ShareError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF69951604B41CDFCFEC43A1 /* ShareError.swift */; };
+		2DEE3A182F3237D72A5B3E4A /* TestSharingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13C2CB3901B48CA8039DD75 /* TestSharingDelegate.swift */; };
+		2EEE080A59424E9D6DFCA15F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E16E4FC5A102CA54A4D82338 /* PrivacyInfo.xcprivacy */; };
+		3089F9182803BA4FDAD7B844 /* TestBridgeAPIRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDE4BF54196F6C4B6910C3 /* TestBridgeAPIRequestFactory.swift */; };
+		36D6D2DC50EC00D8367FFF60 /* FBShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907C37326E7F6E367E578CB /* FBShareButton.swift */; };
+		391596FFE27B792233B14284 /* TestInternalURLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB3E4F5BA0564A39EB8C95A /* TestInternalURLOpener.swift */; };
+		39D9B1943DB2543E54BD1FEC /* SocialComposeViewControllerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FFD936B0071730A3B66C03 /* SocialComposeViewControllerFactoryProtocol.swift */; };
+		3C2422BF834C7AEF7F783041 /* SocialComposeViewControllerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FFD936B0071730A3B66C03 /* SocialComposeViewControllerFactoryProtocol.swift */; };
+		3F976883F2B495D031E11222 /* ShareVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434466FEE048041A2713096 /* ShareVideoTests.swift */; };
+		3FED2021572A17AB89B24493 /* PHImageManager+MediaLibrarySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2121D0AFC886764389CC102 /* PHImageManager+MediaLibrarySearching.swift */; };
+		4970FDA359D8D7B884FE83B0 /* AppInviteContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC3304BE404C2662D3A0D8 /* AppInviteContentTests.swift */; };
+		49A2F989B483C12905A9A953 /* CameraEffectTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742B65FFBBF27F0DF314205 /* CameraEffectTextures.swift */; };
+		49FDB281B2399124F02F4162 /* MediaLibrarySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F561A521198C426CE90F25D /* MediaLibrarySearching.swift */; };
+		4B3C903FEF69C75766901A09 /* SharePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827597F70018CBE80551958F /* SharePhoto.swift */; };
+		51FC1894EE49213A4D6C68EE /* ShareUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E336EBBCA2985D658B7322 /* ShareUtilityTests.swift */; };
+		547A1AC05EBDDA93CECC8696 /* SharingValidatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880DD4EFA9B0F2F9B7A4331 /* SharingValidatable.swift */; };
+		54EC772FEDD1526F58A74AC5 /* ShareAppEventNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223C3AF0244492EA19CE609 /* ShareAppEventNames.swift */; };
+		57F7ABE87103400B12239E3F /* ShareMediaContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF499797618D969B227B6A9 /* ShareMediaContentTests.swift */; };
+		5D50BFB5D5FB108A425FD53C /* SharingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46D95FBF646717087CE834 /* SharingDelegate.swift */; };
+		5FEA3402EB677C07B8EB1540 /* FBSDKShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5227BBF4B0C473A5A514AA /* FBSDKShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6033F57F5D1889B74E29CE8E /* ShareBridgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314C5E3E664E1B03DA3C3A3 /* ShareBridgeAPI.swift */; };
+		61E9640F0414E127FCED69B4 /* TestShareDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC83712F741652EF6F3C743 /* TestShareDialog.swift */; };
+		622960F302C660AA14930BE4 /* _ShareUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0BC7ABC58C9A712A62FE7 /* _ShareUtility.swift */; };
+		647A2C3A886BCE45F34F0B55 /* ShareVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FEAA4D6902E5AFB99D8466 /* ShareVideo.swift */; };
+		65057FE721F47DBE77D2F9BA /* CameraEffectTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742B65FFBBF27F0DF314205 /* CameraEffectTextures.swift */; };
+		66C8AF777C88E7E8ABD9F236 /* SharingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46D95FBF646717087CE834 /* SharingDelegate.swift */; };
+		6BCBB027A5632F111648F9E2 /* SharePhotoContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DDCDBBC83051A8B785B27 /* SharePhotoContentTests.swift */; };
+		6C39DD4FCBB53DA51DFA91F6 /* SharePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F67421D44DA3DAF33BF71 /* SharePhotoTests.swift */; };
+		6DD4C6FD34E6E950766978DC /* ContentFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BB13E125F92A3AFA9EDC7 /* ContentFlags.swift */; };
+		6FF0E2932D2D94F5141733DB /* UserInterfaceStringProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620F986D6ED13672F3041A3 /* UserInterfaceStringProviding.swift */; };
+		73740B6B42E5D5341C20A218 /* ShareAppEventNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223C3AF0244492EA19CE609 /* ShareAppEventNames.swift */; };
+		7376A9B2286E074497BE024E /* SharingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064AE0F1566D9449CEE728B /* SharingDialog.swift */; };
+		765341FDA67457C991EBA5BD /* _ShareUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0BC7ABC58C9A712A62FE7 /* _ShareUtility.swift */; };
+		7674D91772E965D2DA146974 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708983F43EA9643CE081AF2A /* MissingDependenciesError.swift */; };
+		773784C011CB024259A1A230 /* ShareUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E493726B70D43CF70AE34 /* ShareUIApplication.swift */; };
+		79990CD54A165F7EAEC43538 /* Hashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A4EB1FD7D1F1020483386 /* Hashtag.swift */; };
+		7A757C751647503DFFE56393 /* ShareValidating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2D8F0FF1B3096E4548618 /* ShareValidating.swift */; };
+		7C5457E8B587A0E2FEBD6EDD /* ShareInternalURLOpening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6770955EA9C8AC371B44FF0E /* ShareInternalURLOpening.swift */; };
+		7DADADE2C958240373756E33 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100E91BD16BA1AB00C2E0AD4 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7EB6A6F3271BF1F733D7F1EC /* ShareVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53EB09FA3CD9D129513D8E /* ShareVideoContent.swift */; };
+		840B6F2A333D1F663DBC6542 /* FBShareButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37C9306A7266067C265CDD9 /* FBShareButtonTests.swift */; };
+		841AD8048BD5BF4B70E32CA0 /* TestBridgeAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F90905C6FA166137342252 /* TestBridgeAPIResponse.swift */; };
+		86145DC2500C376797EE1555 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93E28CFC5D7742BB0542D4 /* CoreGraphics.framework */; };
+		8622B5CC887D77B8276B61BF /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3590F12CADD7C5DA3F9A0 /* DependentAsType.swift */; };
+		885E8FD7185D5F1A8475BE58 /* ShareLinkContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F3D8E3E27A860FE794FF4 /* ShareLinkContentTests.swift */; };
+		8908DDF046075393FB59B58E /* ShareBridgeAPIRequestFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBF5AE80FB675CE8E84B5 /* ShareBridgeAPIRequestFactoryTests.swift */; };
+		89C5F595A6E2F564E1E50F67 /* SocialComposeViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F7B3C3452EC7AAC5F8D47 /* SocialComposeViewControllerFactory.swift */; };
+		8A2D3C0633CAB9B8673683C6 /* TestSocialComposeViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775890CB3C6958B87F139B2 /* TestSocialComposeViewControllerFactory.swift */; };
+		8A738CFEBEF8880546695198 /* ShareBridgeAPIRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E43D9CFAFE2FE4E2221F3 /* ShareBridgeAPIRequestFactory.swift */; };
+		92EBDF88F104B10333ABE5B7 /* ShareVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53EB09FA3CD9D129513D8E /* ShareVideoContent.swift */; };
+		93B9EC67EC1E2EAF2299597B /* ShareDialogMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DE7EEDE3FD40B08E47366 /* ShareDialogMode.swift */; };
+		965403BE7C940408DDF6F218 /* SharingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064AE0F1566D9449CEE728B /* SharingDialog.swift */; };
+		979F5648DF8BA2924F19E471 /* PHImageManagerSearchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBD6A77F2FEDDFFED698DE9 /* PHImageManagerSearchingTests.swift */; };
+		97CF3F5E44B2EED511BE74F0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D2609E6E872DEE21F325E1 /* Photos.framework */; };
+		98FFBC2744BB1F8ECED807D3 /* ShareDialogConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73358B566B318A14CD966B8 /* ShareDialogConfiguration.swift */; };
+		9A97FEB2E7F402709F709E2C /* ShareLinkContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D2D3E4888A3F3B2ED37AD /* ShareLinkContent.swift */; };
+		9C9616E04E31D1A281D720D0 /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3590F12CADD7C5DA3F9A0 /* DependentAsType.swift */; };
+		A4B6AEE9CEED660DEE050A59 /* CameraEffectArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A508D6684360E704489FBFFD /* CameraEffectArguments.swift */; };
+		A544725721CF26FB247A9E45 /* ShareBridgeAPIRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E43D9CFAFE2FE4E2221F3 /* ShareBridgeAPIRequestFactory.swift */; };
+		A603783220C70F8C149BA261 /* FBSDKShareErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F916C7C8BDECD02DDACFC6 /* FBSDKShareErrorDomain.m */; };
+		A7B3587A926E54068B295E02 /* ShareVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FEAA4D6902E5AFB99D8466 /* ShareVideo.swift */; };
+		AB5F5990F0E552E5D50E192B /* FBSendButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90593E5B24B3116B34D0D68 /* FBSendButtonTests.swift */; };
+		AD26F814C7C391EFBEF95286 /* FBSDKCoreKit-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE56AF73E46326B1F73E3C /* FBSDKCoreKit-Dynamic.framework */; };
+		AD71611587B7BC8A3E55E1D7 /* dog-or-muffin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96F60ADF2D2B14C06327472C /* dog-or-muffin.jpeg */; };
+		AFEEB2B4FBA8143038273C10 /* ShareDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299B5C1D3ECE07B266D4452 /* ShareDialog.swift */; };
+		B0BAD013A89BB8E69BCA8282 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9968A99E6CA8C05B79EB6C2 /* Sharing.swift */; };
+		B1F96C565348183B68D7621D /* ShareError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF69951604B41CDFCFEC43A1 /* ShareError.swift */; };
+		B30A3D91708F75F0D50F2CAC /* ShareModelTestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3311114F9983971BDC0FC4B /* ShareModelTestUtility.swift */; };
+		B38628401CB141072ACFD799 /* ShareDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C186668EAEBDF220D0A3855 /* ShareDialogTests.swift */; };
+		B4403ADBF3C378C5DF55C981 /* ShareLinkContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D2D3E4888A3F3B2ED37AD /* ShareLinkContent.swift */; };
+		B5C7FFAB762C5ABDF866CCEC /* ShareValidating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2D8F0FF1B3096E4548618 /* ShareValidating.swift */; };
+		B9F44AE0F5C7303064DCA17F /* CameraEffectArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A508D6684360E704489FBFFD /* CameraEffectArguments.swift */; };
+		BAEEC2A8597EAE251ACEA5B5 /* ShareUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E493726B70D43CF70AE34 /* ShareUIApplication.swift */; };
+		BB20AABBC8E8FAB13176636B /* TestUserInterfaceStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE7EF80EB11CC81FE5D8B6 /* TestUserInterfaceStringProvider.swift */; };
+		BBA446DC8426D71418B1188A /* ShareBridgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314C5E3E664E1B03DA3C3A3 /* ShareBridgeAPI.swift */; };
+		BC13F879AE8626DAD489F588 /* FBSDKShareBridgeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B677C242555317630C6DD51A /* FBSDKShareBridgeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2D793598E2B42568B7FC09 /* ShareVideoContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562048EAB29190C4A3BC7D0 /* ShareVideoContentTests.swift */; };
+		BC3EAEDD4B33E4C382F423B7 /* SharingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C9EA68F0A4A74BF759540 /* SharingContent.swift */; };
+		BC86CC4A1303468A3A40D095 /* AppInviteContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B55DC221B8C39E56885E2 /* AppInviteContent.swift */; };
+		C17E97A6EA00DEBBBE525D02 /* MessageDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947CACB909F017EB498DF00 /* MessageDialog.swift */; };
+		C5D4D7387934C5332B813067 /* ShareUtilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7D6A903FE97CA305BE99C /* ShareUtilityProtocol.swift */; };
+		C5D985952E20BAEDA52C37E9 /* CameraEffectArgumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714CA263619B44FC4088EFF /* CameraEffectArgumentsTests.swift */; };
+		C7A5A66CF6F0BF2B5F24974B /* TestShareEventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED460E796C28F371C5E199D0 /* TestShareEventLogger.swift */; };
+		C7E6E49FD32221236AAD206D /* AppInviteContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B55DC221B8C39E56885E2 /* AppInviteContent.swift */; };
+		CA9782BB3DE942010CC3A25A /* ShareEventLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33C607FA5858FBD7E62459 /* ShareEventLogging.swift */; };
+		CE99D244435E2A06B32C52FC /* ShareAppEventParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB792D94D61573D21E16CE5 /* ShareAppEventParameters.swift */; };
+		D0132168BDC98EDD143EE93B /* FBSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983E0FD2991E336DCFE49EE /* FBSendButton.swift */; };
+		D0693F8D4C6AF63477E54D76 /* ShareDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299B5C1D3ECE07B266D4452 /* ShareDialog.swift */; };
+		D155D789DC10C27C58DABEA7 /* ShareUtilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7D6A903FE97CA305BE99C /* ShareUtilityProtocol.swift */; };
+		D3C8E2C4F5DF491E00ADD32A /* TestPHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797D79F9BADB1AB81B03910 /* TestPHAsset.swift */; };
+		D5DD8EF474B4EA99F769EB77 /* SharePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827597F70018CBE80551958F /* SharePhoto.swift */; };
+		D70C02A57B12C86AE45C024B /* PrivacyManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAF1FCF58B4A42119BDA0F2 /* PrivacyManifestTests.swift */; };
+		D88736A1A37049291DDA3D50 /* PHImageManager+MediaLibrarySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2121D0AFC886764389CC102 /* PHImageManager+MediaLibrarySearching.swift */; };
+		D8923A9BBC5F8176F3EDE687 /* FBSDKShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5227BBF4B0C473A5A514AA /* FBSDKShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99D0BDA6C77067740B1CD45 /* TestAVURLAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B15D022CB54A1F5BD6EEEB /* TestAVURLAsset.swift */; };
+		D9F77E3B445C08ED85A35995 /* FBSDKShareErrorDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = B193CEEE2A6FC3AAA5DD0939 /* FBSDKShareErrorDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA1DD6008922D64CCE0378E /* TestTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9167BE4634184606F459DE88 /* TestTools.framework */; };
+		DBCA661285E6C6EC44E8873B /* ShareMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BC3E80F228148B110DDDA /* ShareMediaContent.swift */; };
+		DBFB1717E344F9CE817A3F4B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227EEAA2262AD634B42FD444 /* FBSDKShareKit.framework */; };
+		DC77F555BAD9DF246F907770 /* ContentFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BB13E125F92A3AFA9EDC7 /* ContentFlags.swift */; };
+		DE58884805235A5554E4CBC4 /* FBSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983E0FD2991E336DCFE49EE /* FBSendButton.swift */; };
+		E06C12904FC979011DA42EC1 /* ShareDialogMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DE7EEDE3FD40B08E47366 /* ShareDialogMode.swift */; };
+		E5014076AE2689B6508A8D0D /* CameraEffectTexturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E111B2A9E7EEE44646F6F3 /* CameraEffectTexturesTests.swift */; };
+		E59B52EE435989F2845FEBE3 /* ShareCameraEffectContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5DD0FC03E354118CA3B6 /* ShareCameraEffectContent.swift */; };
+		E82C32BD2AE5E4827D7B26FB /* MessengerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F837B3797763911BF052308 /* MessengerIcon.swift */; };
+		E9A695B3DEA469EB079D418A /* SharingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9504B55E1943EA86F9205A97 /* SharingButton.swift */; };
+		EC6C096D745B7F00CF07DBE2 /* TestPHImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E701C75A5FB1A64A697AA93 /* TestPHImageManager.swift */; };
+		ECBCF29BE19C7FE1751DE716 /* ShareMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29EADA0EF3BB41137B2EDC /* ShareMedia.swift */; };
+		EEF7E501B8BC661189584AEE /* FBSDKShareErrorDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = B193CEEE2A6FC3AAA5DD0939 /* FBSDKShareErrorDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F068CE9B2EABC19F953B4047 /* ShareEventLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33C607FA5858FBD7E62459 /* ShareEventLogging.swift */; };
+		F07E1EF8FAB18086C873DA4A /* TestShareDialogConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81BC5361ED6116AE92779C /* TestShareDialogConfiguration.swift */; };
+		F092DC92ADCDA011C0DC32E8 /* TestShareUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FCABCE04C90AEFCBEACE2 /* TestShareUtility.swift */; };
+		F0AC34402B81A3DC477F6D6E /* MessageDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947CACB909F017EB498DF00 /* MessageDialog.swift */; };
+		FAB9C7939BC5CA5FCCD165FB /* ShareCameraEffectContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5DD0FC03E354118CA3B6 /* ShareCameraEffectContent.swift */; };
+		FB6E701EE4E8FEDF55B62627 /* SharingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C9EA68F0A4A74BF759540 /* SharingContent.swift */; };
+		FCDEF693BA6A3655504C944A /* MessengerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F837B3797763911BF052308 /* MessengerIcon.swift */; };
+		FCED399952B8195DDCB73C34 /* SocialComposeViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F7B3C3452EC7AAC5F8D47 /* SocialComposeViewControllerFactory.swift */; };
+		FDBA94D38F93EFCA180D690D /* SharingValidatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880DD4EFA9B0F2F9B7A4331 /* SharingValidatable.swift */; };
+		FEBD49DFBF64DCD02464D25E /* UserInterfaceStringProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620F986D6ED13672F3041A3 /* UserInterfaceStringProviding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5A5CDE5EFA642330325E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C282131ED0EE610B595083 /* FBSDKCoreKit */;
+			proxyType = 2;
+			remoteGlobalIDString = 0F241E5E11B84E3DFB437AF1;
+			remoteInfo = "FBSDKCoreKit-Dynamic";
+		};
+		3D11C953E5FE4262B8CEB287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 563D03839E2E11C7E6A47941;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		4861FB978C4416EAB1FF88E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FCE404A897C3694C40434C /* TestTools */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE1BFF550650C49854D563A;
+			remoteInfo = TestTools;
+		};
+		77C716E012006610CD53CDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C282131ED0EE610B595083 /* FBSDKCoreKit */;
+			proxyType = 2;
+			remoteGlobalIDString = F84B61CDD98A2F242F5BF044;
+			remoteInfo = "FBSDKCoreKit-Static";
+		};
+		782E8C511353DF2C13D187D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = C82569269F0990FC515167BC;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		84E09D95C5D00483F5515E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C282131ED0EE610B595083 /* FBSDKCoreKit */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340536E1E4754D37433F5A5;
+			remoteInfo = "FBSDKCoreKit-Static";
+		};
+		8C6659905DCBC61B531D4603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = FFB1B135B1C613F878D13E07;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		A14D10CE3C53FBF8A619C0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FCE404A897C3694C40434C /* TestTools */;
+			proxyType = 2;
+			remoteGlobalIDString = E40113A8B281C6A908AEFA21;
+			remoteInfo = TestTools;
+		};
+		B0F5DFB70872F71070C125A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F903DA9EDB249CBB8F19937;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		C673DA003F844CC6C22302F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C282131ED0EE610B595083 /* FBSDKCoreKit */;
+			proxyType = 1;
+			remoteGlobalIDString = 95463755E22142396C3ADC06;
+			remoteInfo = "FBSDKCoreKit-Dynamic";
+		};
+		F274AC9A8825988C336B3193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB54C6AB33E20878AB754648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C51C77BB91A01A0AC3115DA;
+			remoteInfo = "FBSDKShareKit-Dynamic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0223C3AF0244492EA19CE609 /* ShareAppEventNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppEventNames.swift; sourceTree = "<group>"; };
+		05FFD936B0071730A3B66C03 /* SocialComposeViewControllerFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialComposeViewControllerFactoryProtocol.swift; sourceTree = "<group>"; };
+		0742B65FFBBF27F0DF314205 /* CameraEffectTextures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEffectTextures.swift; sourceTree = "<group>"; };
+		09D2609E6E872DEE21F325E1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		09F90905C6FA166137342252 /* TestBridgeAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBridgeAPIResponse.swift; sourceTree = "<group>"; };
+		0CA2D8F0FF1B3096E4548618 /* ShareValidating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareValidating.swift; sourceTree = "<group>"; };
+		0CCE7EF80EB11CC81FE5D8B6 /* TestUserInterfaceStringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserInterfaceStringProvider.swift; sourceTree = "<group>"; };
+		100E91BD16BA1AB00C2E0AD4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1314C5E3E664E1B03DA3C3A3 /* ShareBridgeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBridgeAPI.swift; sourceTree = "<group>"; };
+		1620F986D6ED13672F3041A3 /* UserInterfaceStringProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceStringProviding.swift; sourceTree = "<group>"; };
+		1775890CB3C6958B87F139B2 /* TestSocialComposeViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSocialComposeViewControllerFactory.swift; sourceTree = "<group>"; };
+		1797D79F9BADB1AB81B03910 /* TestPHAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPHAsset.swift; sourceTree = "<group>"; };
+		1B3BC3E80F228148B110DDDA /* ShareMediaContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMediaContent.swift; sourceTree = "<group>"; };
+		1D29EADA0EF3BB41137B2EDC /* ShareMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMedia.swift; sourceTree = "<group>"; };
+		1D2C6EF2EDF1633762A76EAC /* SharePhotoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoContent.swift; sourceTree = "<group>"; };
+		206EEC168BF476AF9A7B8B75 /* FBSDKShareKit-Static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBSDKShareKit-Static.xcconfig"; sourceTree = "<group>"; };
+		227EEAA2262AD634B42FD444 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		272F67421D44DA3DAF33BF71 /* SharePhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoTests.swift; sourceTree = "<group>"; };
+		28B15D022CB54A1F5BD6EEEB /* TestAVURLAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAVURLAsset.swift; sourceTree = "<group>"; };
+		2CFB6376294D1562A0B2D393 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2F5FBF5AE80FB675CE8E84B5 /* ShareBridgeAPIRequestFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBridgeAPIRequestFactoryTests.swift; sourceTree = "<group>"; };
+		2FDC3304BE404C2662D3A0D8 /* AppInviteContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInviteContentTests.swift; sourceTree = "<group>"; };
+		307E493726B70D43CF70AE34 /* ShareUIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUIApplication.swift; sourceTree = "<group>"; };
+		30A6F3C5C27FA0BE54A6B8CA /* FBSDKShareKit-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBSDKShareKit-Dynamic.xcconfig"; sourceTree = "<group>"; };
+		35BFAEA76358CAF2AAADA769 /* ContentFlagsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFlagsTests.swift; sourceTree = "<group>"; };
+		3C186668EAEBDF220D0A3855 /* ShareDialogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDialogTests.swift; sourceTree = "<group>"; };
+		3F199231CCA92679AE3E3A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		453A72AE7ECF29B721108B9F /* FBSDKShareKitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FBSDKShareKitTests.xcconfig; sourceTree = "<group>"; };
+		47E0BC7ABC58C9A712A62FE7 /* _ShareUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _ShareUtility.swift; sourceTree = "<group>"; };
+		4F33C607FA5858FBD7E62459 /* ShareEventLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareEventLogging.swift; sourceTree = "<group>"; };
+		4F837B3797763911BF052308 /* MessengerIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerIcon.swift; sourceTree = "<group>"; };
+		4FB792D94D61573D21E16CE5 /* ShareAppEventParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppEventParameters.swift; sourceTree = "<group>"; };
+		57FD5DD0FC03E354118CA3B6 /* ShareCameraEffectContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCameraEffectContent.swift; sourceTree = "<group>"; };
+		5947CACB909F017EB498DF00 /* MessageDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDialog.swift; sourceTree = "<group>"; };
+		5E701C75A5FB1A64A697AA93 /* TestPHImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPHImageManager.swift; sourceTree = "<group>"; };
+		60C7D6A903FE97CA305BE99C /* ShareUtilityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUtilityProtocol.swift; sourceTree = "<group>"; };
+		65FCE404A897C3694C40434C /* TestTools */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestTools; path = ../TestTools/TestTools.xcodeproj; sourceTree = "<group>"; };
+		6770955EA9C8AC371B44FF0E /* ShareInternalURLOpening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareInternalURLOpening.swift; sourceTree = "<group>"; };
+		6973A4C7C29F4C167AA033C3 /* HashtagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagTests.swift; sourceTree = "<group>"; };
+		708983F43EA9643CE081AF2A /* MissingDependenciesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingDependenciesError.swift; sourceTree = "<group>"; };
+		7AEDE4BF54196F6C4B6910C3 /* TestBridgeAPIRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBridgeAPIRequestFactory.swift; sourceTree = "<group>"; };
+		7B5DDCDBBC83051A8B785B27 /* SharePhotoContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoContentTests.swift; sourceTree = "<group>"; };
+		827597F70018CBE80551958F /* SharePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhoto.swift; sourceTree = "<group>"; };
+		834244DA0143438A0B14290A /* MessageDialogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDialogTests.swift; sourceTree = "<group>"; };
+		8562048EAB29190C4A3BC7D0 /* ShareVideoContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVideoContentTests.swift; sourceTree = "<group>"; };
+		85E111B2A9E7EEE44646F6F3 /* CameraEffectTexturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEffectTexturesTests.swift; sourceTree = "<group>"; };
+		871E43D9CFAFE2FE4E2221F3 /* ShareBridgeAPIRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBridgeAPIRequestFactory.swift; sourceTree = "<group>"; };
+		8983E0FD2991E336DCFE49EE /* FBSendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSendButton.swift; sourceTree = "<group>"; };
+		8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit_Basics; path = ../FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.xcodeproj; sourceTree = "<group>"; };
+		8F5227BBF4B0C473A5A514AA /* FBSDKShareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKShareKit.h; sourceTree = "<group>"; };
+		8F561A521198C426CE90F25D /* MediaLibrarySearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibrarySearching.swift; sourceTree = "<group>"; };
+		8FBD6A77F2FEDDFFED698DE9 /* PHImageManagerSearchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHImageManagerSearchingTests.swift; sourceTree = "<group>"; };
+		9069A7A33A735790DEBE3364 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FEAA4D6902E5AFB99D8466 /* ShareVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVideo.swift; sourceTree = "<group>"; };
+		9504B55E1943EA86F9205A97 /* SharingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingButton.swift; sourceTree = "<group>"; };
+		95C282131ED0EE610B595083 /* FBSDKCoreKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit; path = ../FBSDKCoreKit/FBSDKCoreKit.xcodeproj; sourceTree = "<group>"; };
+		96F60ADF2D2B14C06327472C /* dog-or-muffin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dog-or-muffin.jpeg"; sourceTree = "<group>"; };
+		9A53EE6E67E2605133BFFAA0 /* ShareCameraEffectContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCameraEffectContentTests.swift; sourceTree = "<group>"; };
+		9B7F3D8E3E27A860FE794FF4 /* ShareLinkContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkContentTests.swift; sourceTree = "<group>"; };
+		9C81BC5361ED6116AE92779C /* TestShareDialogConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShareDialogConfiguration.swift; sourceTree = "<group>"; };
+		A21F7B3C3452EC7AAC5F8D47 /* SocialComposeViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialComposeViewControllerFactory.swift; sourceTree = "<group>"; };
+		A508D6684360E704489FBFFD /* CameraEffectArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEffectArguments.swift; sourceTree = "<group>"; };
+		A50E24F6245706844491DF18 /* FBSDKShareKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FBSDKShareKit.modulemap; sourceTree = "<group>"; };
+		AF69951604B41CDFCFEC43A1 /* ShareError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareError.swift; sourceTree = "<group>"; };
+		B193CEEE2A6FC3AAA5DD0939 /* FBSDKShareErrorDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKShareErrorDomain.h; sourceTree = "<group>"; };
+		B52C9EA68F0A4A74BF759540 /* SharingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingContent.swift; sourceTree = "<group>"; };
+		B677C242555317630C6DD51A /* FBSDKShareBridgeOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKShareBridgeOptions.h; sourceTree = "<group>"; };
+		B880DD4EFA9B0F2F9B7A4331 /* SharingValidatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingValidatable.swift; sourceTree = "<group>"; };
+		BAB3E4F5BA0564A39EB8C95A /* TestInternalURLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalURLOpener.swift; sourceTree = "<group>"; };
+		BCB3590F12CADD7C5DA3F9A0 /* DependentAsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsType.swift; sourceTree = "<group>"; };
+		C064AE0F1566D9449CEE728B /* SharingDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDialog.swift; sourceTree = "<group>"; };
+		C2121D0AFC886764389CC102 /* PHImageManager+MediaLibrarySearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHImageManager+MediaLibrarySearching.swift"; sourceTree = "<group>"; };
+		C2F9CFE8D8E4BEF1F596541C /* FBSDKShareKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FBSDKShareKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ECA9F10BE6555A0AC6B015 /* DependentAsTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsTypeTests.swift; sourceTree = "<group>"; };
+		C40DE7EEDE3FD40B08E47366 /* ShareDialogMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDialogMode.swift; sourceTree = "<group>"; };
+		C76B4B1770FE9F60A8DDFD63 /* SocialComposeViewControllerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialComposeViewControllerFactoryTests.swift; sourceTree = "<group>"; };
+		C907C37326E7F6E367E578CB /* FBShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBShareButton.swift; sourceTree = "<group>"; };
+		C9F916C7C8BDECD02DDACFC6 /* FBSDKShareErrorDomain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKShareErrorDomain.m; sourceTree = "<group>"; };
+		CAEC8AB22A40D38D2E893FC3 /* TestMessageDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMessageDialog.swift; sourceTree = "<group>"; };
+		CC9BB13E125F92A3AFA9EDC7 /* ContentFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFlags.swift; sourceTree = "<group>"; };
+		CFAF1FCF58B4A42119BDA0F2 /* PrivacyManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestTests.swift; sourceTree = "<group>"; };
+		D13C2CB3901B48CA8039DD75 /* TestSharingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSharingDelegate.swift; sourceTree = "<group>"; };
+		D60B55DC221B8C39E56885E2 /* AppInviteContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInviteContent.swift; sourceTree = "<group>"; };
+		D73358B566B318A14CD966B8 /* ShareDialogConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDialogConfiguration.swift; sourceTree = "<group>"; };
+		DA93E28CFC5D7742BB0542D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC4D084321DC68182B476082 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DF53EB09FA3CD9D129513D8E /* ShareVideoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVideoContent.swift; sourceTree = "<group>"; };
+		E16E4FC5A102CA54A4D82338 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E299B5C1D3ECE07B266D4452 /* ShareDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDialog.swift; sourceTree = "<group>"; };
+		E34D2D3E4888A3F3B2ED37AD /* ShareLinkContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkContent.swift; sourceTree = "<group>"; };
+		E37C9306A7266067C265CDD9 /* FBShareButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBShareButtonTests.swift; sourceTree = "<group>"; };
+		E434466FEE048041A2713096 /* ShareVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVideoTests.swift; sourceTree = "<group>"; };
+		E714CA263619B44FC4088EFF /* CameraEffectArgumentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEffectArgumentsTests.swift; sourceTree = "<group>"; };
+		E85B195C255400A75332DA68 /* TestMediaLibrarySearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMediaLibrarySearcher.swift; sourceTree = "<group>"; };
+		ECC83712F741652EF6F3C743 /* TestShareDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShareDialog.swift; sourceTree = "<group>"; };
+		ED460E796C28F371C5E199D0 /* TestShareEventLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShareEventLogger.swift; sourceTree = "<group>"; };
+		ED9A4EB1FD7D1F1020483386 /* Hashtag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtag.swift; sourceTree = "<group>"; };
+		EDF499797618D969B227B6A9 /* ShareMediaContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMediaContentTests.swift; sourceTree = "<group>"; };
+		EF41DC65FA8F3AE2A363971C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3311114F9983971BDC0FC4B /* ShareModelTestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModelTestUtility.swift; sourceTree = "<group>"; };
+		F6E336EBBCA2985D658B7322 /* ShareUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUtilityTests.swift; sourceTree = "<group>"; };
+		F90593E5B24B3116B34D0D68 /* FBSendButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSendButtonTests.swift; sourceTree = "<group>"; };
+		F9968A99E6CA8C05B79EB6C2 /* Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
+		FA46D95FBF646717087CE834 /* SharingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDelegate.swift; sourceTree = "<group>"; };
+		FD6D358432BCF817AF2C513C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE9FCABCE04C90AEFCBEACE2 /* TestShareUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShareUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60AE27828A9A4A6C404404CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084246A80BD1DAE6C23AE0D7 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */,
+				AD26F814C7C391EFBEF95286 /* FBSDKCoreKit-Dynamic.framework in Frameworks */,
+				0A14E1D9DFD664414ADA30C7 /* UIKit.framework in Frameworks */,
+				86145DC2500C376797EE1555 /* CoreGraphics.framework in Frameworks */,
+				97CF3F5E44B2EED511BE74F0 /* Photos.framework in Frameworks */,
+				7DADADE2C958240373756E33 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC99C52505B0A833CFC2FA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFB1717E344F9CE817A3F4B /* FBSDKShareKit.framework in Frameworks */,
+				DAA1DD6008922D64CCE0378E /* TestTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009F812DBB8C5FE6570003BB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D084321DC68182B476082 /* Debug.xcconfig */,
+				2CFB6376294D1562A0B2D393 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = Configurations/Shared/Configuration;
+			sourceTree = "<group>";
+		};
+		1BBBBA99E7E681711DF77229 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BCB3590F12CADD7C5DA3F9A0 /* DependentAsType.swift */,
+				708983F43EA9643CE081AF2A /* MissingDependenciesError.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		1E4E0B64296D96D4E2DBBE4C /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				95C282131ED0EE610B595083 /* FBSDKCoreKit */,
+				8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */,
+				65FCE404A897C3694C40434C /* TestTools */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		2069B8A11549D89C1D900CA8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC3304BE404C2662D3A0D8 /* AppInviteContentTests.swift */,
+				E714CA263619B44FC4088EFF /* CameraEffectArgumentsTests.swift */,
+				85E111B2A9E7EEE44646F6F3 /* CameraEffectTexturesTests.swift */,
+				35BFAEA76358CAF2AAADA769 /* ContentFlagsTests.swift */,
+				6973A4C7C29F4C167AA033C3 /* HashtagTests.swift */,
+				9A53EE6E67E2605133BFFAA0 /* ShareCameraEffectContentTests.swift */,
+				9B7F3D8E3E27A860FE794FF4 /* ShareLinkContentTests.swift */,
+				EDF499797618D969B227B6A9 /* ShareMediaContentTests.swift */,
+				F3311114F9983971BDC0FC4B /* ShareModelTestUtility.swift */,
+				7B5DDCDBBC83051A8B785B27 /* SharePhotoContentTests.swift */,
+				272F67421D44DA3DAF33BF71 /* SharePhotoTests.swift */,
+				8562048EAB29190C4A3BC7D0 /* ShareVideoContentTests.swift */,
+				E434466FEE048041A2713096 /* ShareVideoTests.swift */,
+				E85B195C255400A75332DA68 /* TestMediaLibrarySearcher.swift */,
+				1797D79F9BADB1AB81B03910 /* TestPHAsset.swift */,
+				593294D38F79029944C0B530 /* MediaLibrary */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		235CEA86290A8D051640095F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F41599E065FE6A85EA3DA70 /* FBSDKCoreKit_Basics-Dynamic.framework */,
+				7C293976043ADC2250058C1A /* FBSDKCoreKit_Basics-Static.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593294D38F79029944C0B530 /* MediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				8FBD6A77F2FEDDFFED698DE9 /* PHImageManagerSearchingTests.swift */,
+				28B15D022CB54A1F5BD6EEEB /* TestAVURLAsset.swift */,
+				5E701C75A5FB1A64A697AA93 /* TestPHImageManager.swift */,
+			);
+			path = MediaLibrary;
+			sourceTree = "<group>";
+		};
+		61F01A238035C143EC90E6B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88BE56AF73E46326B1F73E3C /* FBSDKCoreKit-Dynamic.framework */,
+				6DEEA39ADB13433C404A3355 /* FBSDKCoreKit-Static.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E5E431397E419B83134C90 /* Reporting */ = {
+			isa = PBXGroup;
+			children = (
+				0223C3AF0244492EA19CE609 /* ShareAppEventNames.swift */,
+				4FB792D94D61573D21E16CE5 /* ShareAppEventParameters.swift */,
+				4F33C607FA5858FBD7E62459 /* ShareEventLogging.swift */,
+			);
+			path = Reporting;
+			sourceTree = "<group>";
+		};
+		6A69F2BEDF7FB2D46DB151CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA93E28CFC5D7742BB0542D4 /* CoreGraphics.framework */,
+				09D2609E6E872DEE21F325E1 /* Photos.framework */,
+				100E91BD16BA1AB00C2E0AD4 /* Social.framework */,
+				EF41DC65FA8F3AE2A363971C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8402D5D5B2CC27F0688DEBA9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				30A6F3C5C27FA0BE54A6B8CA /* FBSDKShareKit-Dynamic.xcconfig */,
+				206EEC168BF476AF9A7B8B75 /* FBSDKShareKit-Static.xcconfig */,
+				453A72AE7ECF29B721108B9F /* FBSDKShareKitTests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		85FD5B9197B1F1E349250D6F /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				C3ECA9F10BE6555A0AC6B015 /* DependentAsTypeTests.swift */,
+				CFAF1FCF58B4A42119BDA0F2 /* PrivacyManifestTests.swift */,
+				F6E336EBBCA2985D658B7322 /* ShareUtilityTests.swift */,
+				ED460E796C28F371C5E199D0 /* TestShareEventLogger.swift */,
+				FE9FCABCE04C90AEFCBEACE2 /* TestShareUtility.swift */,
+				0CCE7EF80EB11CC81FE5D8B6 /* TestUserInterfaceStringProvider.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		87D90BB1D5DB17F825B86901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9167BE4634184606F459DE88 /* TestTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A02B0473C214CC3BA8136E3 /* MediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				8F561A521198C426CE90F25D /* MediaLibrarySearching.swift */,
+				C2121D0AFC886764389CC102 /* PHImageManager+MediaLibrarySearching.swift */,
+			);
+			path = MediaLibrary;
+			sourceTree = "<group>";
+		};
+		8F5BE5D6D173F90D79C5A3D0 = {
+			isa = PBXGroup;
+			children = (
+				009F812DBB8C5FE6570003BB /* Configuration */,
+				8402D5D5B2CC27F0688DEBA9 /* Configurations */,
+				916A62EFBB9597112044C0B7 /* FBSDKShareKit */,
+				B72E7F8367D40BFDCB14B852 /* FBSDKShareKitTests */,
+				6A69F2BEDF7FB2D46DB151CC /* Frameworks */,
+				C681651561454F4DB1AE1820 /* Products */,
+				1E4E0B64296D96D4E2DBBE4C /* Projects */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		916A62EFBB9597112044C0B7 /* FBSDKShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				8F5227BBF4B0C473A5A514AA /* FBSDKShareKit.h */,
+				A50E24F6245706844491DF18 /* FBSDKShareKit.modulemap */,
+				3F199231CCA92679AE3E3A01 /* Info.plist */,
+				E16E4FC5A102CA54A4D82338 /* PrivacyInfo.xcprivacy */,
+				BACB00B74265FC14B46342F3 /* Bridging */,
+				1BBBBA99E7E681711DF77229 /* Configuration */,
+				9A86FD5B6F601589CAD7AC2C /* Content */,
+				C66CC546971DF1CCEC4FB52C /* Core */,
+				69E5E431397E419B83134C90 /* Reporting */,
+				953D76BF66F92125F631C96C /* UserInterface */,
+			);
+			path = FBSDKShareKit;
+			sourceTree = "<group>";
+		};
+		953D76BF66F92125F631C96C /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8983E0FD2991E336DCFE49EE /* FBSendButton.swift */,
+				C907C37326E7F6E367E578CB /* FBShareButton.swift */,
+				5947CACB909F017EB498DF00 /* MessageDialog.swift */,
+				4F837B3797763911BF052308 /* MessengerIcon.swift */,
+				E299B5C1D3ECE07B266D4452 /* ShareDialog.swift */,
+				D73358B566B318A14CD966B8 /* ShareDialogConfiguration.swift */,
+				C40DE7EEDE3FD40B08E47366 /* ShareDialogMode.swift */,
+				F9968A99E6CA8C05B79EB6C2 /* Sharing.swift */,
+				9504B55E1943EA86F9205A97 /* SharingButton.swift */,
+				FA46D95FBF646717087CE834 /* SharingDelegate.swift */,
+				C064AE0F1566D9449CEE728B /* SharingDialog.swift */,
+				A21F7B3C3452EC7AAC5F8D47 /* SocialComposeViewControllerFactory.swift */,
+				05FFD936B0071730A3B66C03 /* SocialComposeViewControllerFactoryProtocol.swift */,
+				1620F986D6ED13672F3041A3 /* UserInterfaceStringProviding.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		9A86FD5B6F601589CAD7AC2C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				47E0BC7ABC58C9A712A62FE7 /* _ShareUtility.swift */,
+				D60B55DC221B8C39E56885E2 /* AppInviteContent.swift */,
+				A508D6684360E704489FBFFD /* CameraEffectArguments.swift */,
+				0742B65FFBBF27F0DF314205 /* CameraEffectTextures.swift */,
+				CC9BB13E125F92A3AFA9EDC7 /* ContentFlags.swift */,
+				ED9A4EB1FD7D1F1020483386 /* Hashtag.swift */,
+				57FD5DD0FC03E354118CA3B6 /* ShareCameraEffectContent.swift */,
+				E34D2D3E4888A3F3B2ED37AD /* ShareLinkContent.swift */,
+				1D29EADA0EF3BB41137B2EDC /* ShareMedia.swift */,
+				1B3BC3E80F228148B110DDDA /* ShareMediaContent.swift */,
+				827597F70018CBE80551958F /* SharePhoto.swift */,
+				1D2C6EF2EDF1633762A76EAC /* SharePhotoContent.swift */,
+				60C7D6A903FE97CA305BE99C /* ShareUtilityProtocol.swift */,
+				0CA2D8F0FF1B3096E4548618 /* ShareValidating.swift */,
+				93FEAA4D6902E5AFB99D8466 /* ShareVideo.swift */,
+				DF53EB09FA3CD9D129513D8E /* ShareVideoContent.swift */,
+				B52C9EA68F0A4A74BF759540 /* SharingContent.swift */,
+				B880DD4EFA9B0F2F9B7A4331 /* SharingValidatable.swift */,
+				8A02B0473C214CC3BA8136E3 /* MediaLibrary */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		B72E7F8367D40BFDCB14B852 /* FBSDKShareKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D358432BCF817AF2C513C /* Info.plist */,
+				B76D69AFC92CB74D862C0B97 /* Bridging */,
+				2069B8A11549D89C1D900CA8 /* Content */,
+				85FD5B9197B1F1E349250D6F /* Internal */,
+				D46138D847975A560E285EB6 /* SampleData */,
+				C1E8D7336A88BBFB842A712E /* UserInterface */,
+			);
+			path = FBSDKShareKitTests;
+			sourceTree = "<group>";
+		};
+		B76D69AFC92CB74D862C0B97 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				2F5FBF5AE80FB675CE8E84B5 /* ShareBridgeAPIRequestFactoryTests.swift */,
+				7AEDE4BF54196F6C4B6910C3 /* TestBridgeAPIRequestFactory.swift */,
+				09F90905C6FA166137342252 /* TestBridgeAPIResponse.swift */,
+				BAB3E4F5BA0564A39EB8C95A /* TestInternalURLOpener.swift */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		BACB00B74265FC14B46342F3 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				B677C242555317630C6DD51A /* FBSDKShareBridgeOptions.h */,
+				1314C5E3E664E1B03DA3C3A3 /* ShareBridgeAPI.swift */,
+				871E43D9CFAFE2FE4E2221F3 /* ShareBridgeAPIRequestFactory.swift */,
+				6770955EA9C8AC371B44FF0E /* ShareInternalURLOpening.swift */,
+				307E493726B70D43CF70AE34 /* ShareUIApplication.swift */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		C1E8D7336A88BBFB842A712E /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				F90593E5B24B3116B34D0D68 /* FBSendButtonTests.swift */,
+				E37C9306A7266067C265CDD9 /* FBShareButtonTests.swift */,
+				834244DA0143438A0B14290A /* MessageDialogTests.swift */,
+				3C186668EAEBDF220D0A3855 /* ShareDialogTests.swift */,
+				C76B4B1770FE9F60A8DDFD63 /* SocialComposeViewControllerFactoryTests.swift */,
+				CAEC8AB22A40D38D2E893FC3 /* TestMessageDialog.swift */,
+				ECC83712F741652EF6F3C743 /* TestShareDialog.swift */,
+				9C81BC5361ED6116AE92779C /* TestShareDialogConfiguration.swift */,
+				D13C2CB3901B48CA8039DD75 /* TestSharingDelegate.swift */,
+				1775890CB3C6958B87F139B2 /* TestSocialComposeViewControllerFactory.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		C66CC546971DF1CCEC4FB52C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B193CEEE2A6FC3AAA5DD0939 /* FBSDKShareErrorDomain.h */,
+				C9F916C7C8BDECD02DDACFC6 /* FBSDKShareErrorDomain.m */,
+				AF69951604B41CDFCFEC43A1 /* ShareError.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C681651561454F4DB1AE1820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227EEAA2262AD634B42FD444 /* FBSDKShareKit.framework */,
+				9069A7A33A735790DEBE3364 /* FBSDKShareKit.framework */,
+				C2F9CFE8D8E4BEF1F596541C /* FBSDKShareKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46138D847975A560E285EB6 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				96F60ADF2D2B14C06327472C /* dog-or-muffin.jpeg */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5ACB77B3516602D144BB486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FDB0376160D5C5C22D062D /* FBSDKShareBridgeOptions.h in Headers */,
+				EEF7E501B8BC661189584AEE /* FBSDKShareErrorDomain.h in Headers */,
+				D8923A9BBC5F8176F3EDE687 /* FBSDKShareKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37413982D4C41B98BF68506 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC13F879AE8626DAD489F588 /* FBSDKShareBridgeOptions.h in Headers */,
+				D9F77E3B445C08ED85A35995 /* FBSDKShareErrorDomain.h in Headers */,
+				5FEA3402EB677C07B8EB1540 /* FBSDKShareKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C51C77BB91A01A0AC3115DA /* FBSDKShareKit-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EFD9362BCC2F3F0382FE34 /* Build configuration list for PBXNativeTarget "FBSDKShareKit-Dynamic" */;
+			buildPhases = (
+				359BB48B6A753754051579C2 /* Run Swiftlint */,
+				B5ACB77B3516602D144BB486 /* Headers */,
+				A31963E3F093BF7240ED3D73 /* Sources */,
+				5F9C4C8B861493AA66E86CD4 /* Resources */,
+				60AE27828A9A4A6C404404CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9908E3485C96351A1D289AD0 /* PBXTargetDependency */,
+				5A62041B1B7BB23AB1BB104F /* PBXTargetDependency */,
+			);
+			name = "FBSDKShareKit-Dynamic";
+			productName = "FBSDKShareKit-Dynamic";
+			productReference = 227EEAA2262AD634B42FD444 /* FBSDKShareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72B7C3B648443F780CC2BFD5 /* FBSDKShareKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD9B43FD8A79A878A83C2E1 /* Build configuration list for PBXNativeTarget "FBSDKShareKitTests" */;
+			buildPhases = (
+				D8DA207C01DB26C3FEADB89E /* Sources */,
+				BFCF4E33E890869D771D11DE /* Resources */,
+				FC99C52505B0A833CFC2FA32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5622161B8864484D69206B35 /* PBXTargetDependency */,
+				E8BE97BF8BB7CB3C2D845171 /* PBXTargetDependency */,
+			);
+			name = FBSDKShareKitTests;
+			productName = FBSDKShareKitTests;
+			productReference = C2F9CFE8D8E4BEF1F596541C /* FBSDKShareKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4C7AB27C1ED9CF8EF881088 /* FBSDKShareKit-Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25C24B0BC58FD9353421932 /* Build configuration list for PBXNativeTarget "FBSDKShareKit-Static" */;
+			buildPhases = (
+				1CD639FDB60110E23FCAFF31 /* Run Swiftlint */,
+				C37413982D4C41B98BF68506 /* Headers */,
+				B2257DABA25364D72FDBBEF1 /* Sources */,
+				6247B8400ED6A52B14BD1447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D633C21944EB6BBCDB1C803 /* PBXTargetDependency */,
+				1B47E2299A77D481FEC10ACE /* PBXTargetDependency */,
+			);
+			name = "FBSDKShareKit-Static";
+			productName = "FBSDKShareKit-Static";
+			productReference = 9069A7A33A735790DEBE3364 /* FBSDKShareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB54C6AB33E20878AB754648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 90D651C347FF60EE9CE32442 /* Build configuration list for PBXProject "FBSDKShareKit" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8F5BE5D6D173F90D79C5A3D0;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 61F01A238035C143EC90E6B1 /* Products */;
+					ProjectRef = 95C282131ED0EE610B595083 /* FBSDKCoreKit */;
+				},
+				{
+					ProductGroup = 235CEA86290A8D051640095F /* Products */;
+					ProjectRef = 8A1D34466657820519D250B7 /* FBSDKCoreKit_Basics */;
+				},
+				{
+					ProductGroup = 87D90BB1D5DB17F825B86901 /* Products */;
+					ProjectRef = 65FCE404A897C3694C40434C /* TestTools */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6C51C77BB91A01A0AC3115DA /* FBSDKShareKit-Dynamic */,
+				D4C7AB27C1ED9CF8EF881088 /* FBSDKShareKit-Static */,
+				72B7C3B648443F780CC2BFD5 /* FBSDKShareKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F41599E065FE6A85EA3DA70 /* FBSDKCoreKit_Basics-Dynamic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Dynamic.framework";
+			remoteRef = 782E8C511353DF2C13D187D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6DEEA39ADB13433C404A3355 /* FBSDKCoreKit-Static.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit-Static.framework";
+			remoteRef = 77C716E012006610CD53CDBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C293976043ADC2250058C1A /* FBSDKCoreKit_Basics-Static.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Static.framework";
+			remoteRef = 8C6659905DCBC61B531D4603 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		88BE56AF73E46326B1F73E3C /* FBSDKCoreKit-Dynamic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit-Dynamic.framework";
+			remoteRef = 3C5A5CDE5EFA642330325E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9167BE4634184606F459DE88 /* TestTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestTools.framework;
+			remoteRef = A14D10CE3C53FBF8A619C0D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9C4C8B861493AA66E86CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEE080A59424E9D6DFCA15F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6247B8400ED6A52B14BD1447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ACE21D897235686176E559 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF4E33E890869D771D11DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD71611587B7BC8A3E55E1D7 /* dog-or-muffin.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD639FDB60110E23FCAFF31 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+		359BB48B6A753754051579C2 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31963E3F093BF7240ED3D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86CC4A1303468A3A40D095 /* AppInviteContent.swift in Sources */,
+				B9F44AE0F5C7303064DCA17F /* CameraEffectArguments.swift in Sources */,
+				65057FE721F47DBE77D2F9BA /* CameraEffectTextures.swift in Sources */,
+				6DD4C6FD34E6E950766978DC /* ContentFlags.swift in Sources */,
+				9C9616E04E31D1A281D720D0 /* DependentAsType.swift in Sources */,
+				A603783220C70F8C149BA261 /* FBSDKShareErrorDomain.m in Sources */,
+				DE58884805235A5554E4CBC4 /* FBSendButton.swift in Sources */,
+				36D6D2DC50EC00D8367FFF60 /* FBShareButton.swift in Sources */,
+				79990CD54A165F7EAEC43538 /* Hashtag.swift in Sources */,
+				49FDB281B2399124F02F4162 /* MediaLibrarySearching.swift in Sources */,
+				C17E97A6EA00DEBBBE525D02 /* MessageDialog.swift in Sources */,
+				E82C32BD2AE5E4827D7B26FB /* MessengerIcon.swift in Sources */,
+				177999DC97F00198DD0E4AD6 /* MissingDependenciesError.swift in Sources */,
+				D88736A1A37049291DDA3D50 /* PHImageManager+MediaLibrarySearching.swift in Sources */,
+				54EC772FEDD1526F58A74AC5 /* ShareAppEventNames.swift in Sources */,
+				CE99D244435E2A06B32C52FC /* ShareAppEventParameters.swift in Sources */,
+				6033F57F5D1889B74E29CE8E /* ShareBridgeAPI.swift in Sources */,
+				8A738CFEBEF8880546695198 /* ShareBridgeAPIRequestFactory.swift in Sources */,
+				FAB9C7939BC5CA5FCCD165FB /* ShareCameraEffectContent.swift in Sources */,
+				AFEEB2B4FBA8143038273C10 /* ShareDialog.swift in Sources */,
+				98FFBC2744BB1F8ECED807D3 /* ShareDialogConfiguration.swift in Sources */,
+				E06C12904FC979011DA42EC1 /* ShareDialogMode.swift in Sources */,
+				2A46D93BB222C23F732C0281 /* ShareError.swift in Sources */,
+				CA9782BB3DE942010CC3A25A /* ShareEventLogging.swift in Sources */,
+				1E98FDEFA25D1AEC0B70F742 /* ShareInternalURLOpening.swift in Sources */,
+				9A97FEB2E7F402709F709E2C /* ShareLinkContent.swift in Sources */,
+				04573B1CE1F0F1D187A24315 /* ShareMedia.swift in Sources */,
+				DBCA661285E6C6EC44E8873B /* ShareMediaContent.swift in Sources */,
+				D5DD8EF474B4EA99F769EB77 /* SharePhoto.swift in Sources */,
+				022816B2B62939B1899134FD /* SharePhotoContent.swift in Sources */,
+				773784C011CB024259A1A230 /* ShareUIApplication.swift in Sources */,
+				C5D4D7387934C5332B813067 /* ShareUtilityProtocol.swift in Sources */,
+				7A757C751647503DFFE56393 /* ShareValidating.swift in Sources */,
+				A7B3587A926E54068B295E02 /* ShareVideo.swift in Sources */,
+				92EBDF88F104B10333ABE5B7 /* ShareVideoContent.swift in Sources */,
+				B0BAD013A89BB8E69BCA8282 /* Sharing.swift in Sources */,
+				E9A695B3DEA469EB079D418A /* SharingButton.swift in Sources */,
+				BC3EAEDD4B33E4C382F423B7 /* SharingContent.swift in Sources */,
+				66C8AF777C88E7E8ABD9F236 /* SharingDelegate.swift in Sources */,
+				7376A9B2286E074497BE024E /* SharingDialog.swift in Sources */,
+				FDBA94D38F93EFCA180D690D /* SharingValidatable.swift in Sources */,
+				FCED399952B8195DDCB73C34 /* SocialComposeViewControllerFactory.swift in Sources */,
+				39D9B1943DB2543E54BD1FEC /* SocialComposeViewControllerFactoryProtocol.swift in Sources */,
+				FEBD49DFBF64DCD02464D25E /* UserInterfaceStringProviding.swift in Sources */,
+				765341FDA67457C991EBA5BD /* _ShareUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2257DABA25364D72FDBBEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E6E49FD32221236AAD206D /* AppInviteContent.swift in Sources */,
+				A4B6AEE9CEED660DEE050A59 /* CameraEffectArguments.swift in Sources */,
+				49A2F989B483C12905A9A953 /* CameraEffectTextures.swift in Sources */,
+				DC77F555BAD9DF246F907770 /* ContentFlags.swift in Sources */,
+				8622B5CC887D77B8276B61BF /* DependentAsType.swift in Sources */,
+				269B357300F1FD846E752F56 /* FBSDKShareErrorDomain.m in Sources */,
+				D0132168BDC98EDD143EE93B /* FBSendButton.swift in Sources */,
+				0FC0265D4A466D0DABA091C1 /* FBShareButton.swift in Sources */,
+				12012A2C381C1D39D266495C /* Hashtag.swift in Sources */,
+				280A01F34BA96632DD276171 /* MediaLibrarySearching.swift in Sources */,
+				F0AC34402B81A3DC477F6D6E /* MessageDialog.swift in Sources */,
+				FCDEF693BA6A3655504C944A /* MessengerIcon.swift in Sources */,
+				7674D91772E965D2DA146974 /* MissingDependenciesError.swift in Sources */,
+				3FED2021572A17AB89B24493 /* PHImageManager+MediaLibrarySearching.swift in Sources */,
+				73740B6B42E5D5341C20A218 /* ShareAppEventNames.swift in Sources */,
+				0771982418AE1802D0BB3AE5 /* ShareAppEventParameters.swift in Sources */,
+				BBA446DC8426D71418B1188A /* ShareBridgeAPI.swift in Sources */,
+				A544725721CF26FB247A9E45 /* ShareBridgeAPIRequestFactory.swift in Sources */,
+				E59B52EE435989F2845FEBE3 /* ShareCameraEffectContent.swift in Sources */,
+				D0693F8D4C6AF63477E54D76 /* ShareDialog.swift in Sources */,
+				0B48E56A0BD53683F49769EA /* ShareDialogConfiguration.swift in Sources */,
+				93B9EC67EC1E2EAF2299597B /* ShareDialogMode.swift in Sources */,
+				B1F96C565348183B68D7621D /* ShareError.swift in Sources */,
+				F068CE9B2EABC19F953B4047 /* ShareEventLogging.swift in Sources */,
+				7C5457E8B587A0E2FEBD6EDD /* ShareInternalURLOpening.swift in Sources */,
+				B4403ADBF3C378C5DF55C981 /* ShareLinkContent.swift in Sources */,
+				ECBCF29BE19C7FE1751DE716 /* ShareMedia.swift in Sources */,
+				0E918C9C9FAB144C9880DB2D /* ShareMediaContent.swift in Sources */,
+				4B3C903FEF69C75766901A09 /* SharePhoto.swift in Sources */,
+				29AC8DF7816511E7F66D74DF /* SharePhotoContent.swift in Sources */,
+				BAEEC2A8597EAE251ACEA5B5 /* ShareUIApplication.swift in Sources */,
+				D155D789DC10C27C58DABEA7 /* ShareUtilityProtocol.swift in Sources */,
+				B5C7FFAB762C5ABDF866CCEC /* ShareValidating.swift in Sources */,
+				647A2C3A886BCE45F34F0B55 /* ShareVideo.swift in Sources */,
+				7EB6A6F3271BF1F733D7F1EC /* ShareVideoContent.swift in Sources */,
+				0776835408486139A82D061E /* Sharing.swift in Sources */,
+				20F22732ADE140A87D94909C /* SharingButton.swift in Sources */,
+				FB6E701EE4E8FEDF55B62627 /* SharingContent.swift in Sources */,
+				5D50BFB5D5FB108A425FD53C /* SharingDelegate.swift in Sources */,
+				965403BE7C940408DDF6F218 /* SharingDialog.swift in Sources */,
+				547A1AC05EBDDA93CECC8696 /* SharingValidatable.swift in Sources */,
+				89C5F595A6E2F564E1E50F67 /* SocialComposeViewControllerFactory.swift in Sources */,
+				3C2422BF834C7AEF7F783041 /* SocialComposeViewControllerFactoryProtocol.swift in Sources */,
+				6FF0E2932D2D94F5141733DB /* UserInterfaceStringProviding.swift in Sources */,
+				622960F302C660AA14930BE4 /* _ShareUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DA207C01DB26C3FEADB89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4970FDA359D8D7B884FE83B0 /* AppInviteContentTests.swift in Sources */,
+				C5D985952E20BAEDA52C37E9 /* CameraEffectArgumentsTests.swift in Sources */,
+				E5014076AE2689B6508A8D0D /* CameraEffectTexturesTests.swift in Sources */,
+				2230E8D789322D84A383A3EE /* ContentFlagsTests.swift in Sources */,
+				07261F7119911A60822F6617 /* DependentAsTypeTests.swift in Sources */,
+				AB5F5990F0E552E5D50E192B /* FBSendButtonTests.swift in Sources */,
+				840B6F2A333D1F663DBC6542 /* FBShareButtonTests.swift in Sources */,
+				11E60EF199F7D7522184E933 /* HashtagTests.swift in Sources */,
+				1CB90BDA73110D8D03A8717E /* MessageDialogTests.swift in Sources */,
+				979F5648DF8BA2924F19E471 /* PHImageManagerSearchingTests.swift in Sources */,
+				D70C02A57B12C86AE45C024B /* PrivacyManifestTests.swift in Sources */,
+				8908DDF046075393FB59B58E /* ShareBridgeAPIRequestFactoryTests.swift in Sources */,
+				09C23657328D810941313871 /* ShareCameraEffectContentTests.swift in Sources */,
+				B38628401CB141072ACFD799 /* ShareDialogTests.swift in Sources */,
+				885E8FD7185D5F1A8475BE58 /* ShareLinkContentTests.swift in Sources */,
+				57F7ABE87103400B12239E3F /* ShareMediaContentTests.swift in Sources */,
+				B30A3D91708F75F0D50F2CAC /* ShareModelTestUtility.swift in Sources */,
+				6BCBB027A5632F111648F9E2 /* SharePhotoContentTests.swift in Sources */,
+				6C39DD4FCBB53DA51DFA91F6 /* SharePhotoTests.swift in Sources */,
+				51FC1894EE49213A4D6C68EE /* ShareUtilityTests.swift in Sources */,
+				BC2D793598E2B42568B7FC09 /* ShareVideoContentTests.swift in Sources */,
+				3F976883F2B495D031E11222 /* ShareVideoTests.swift in Sources */,
+				0E334B2E07FA01860504B905 /* SocialComposeViewControllerFactoryTests.swift in Sources */,
+				D99D0BDA6C77067740B1CD45 /* TestAVURLAsset.swift in Sources */,
+				3089F9182803BA4FDAD7B844 /* TestBridgeAPIRequestFactory.swift in Sources */,
+				841AD8048BD5BF4B70E32CA0 /* TestBridgeAPIResponse.swift in Sources */,
+				391596FFE27B792233B14284 /* TestInternalURLOpener.swift in Sources */,
+				07269E9E90ECCEFAECBDD89C /* TestMediaLibrarySearcher.swift in Sources */,
+				28DA9B803CBA3D703E874A22 /* TestMessageDialog.swift in Sources */,
+				D3C8E2C4F5DF491E00ADD32A /* TestPHAsset.swift in Sources */,
+				EC6C096D745B7F00CF07DBE2 /* TestPHImageManager.swift in Sources */,
+				61E9640F0414E127FCED69B4 /* TestShareDialog.swift in Sources */,
+				F07E1EF8FAB18086C873DA4A /* TestShareDialogConfiguration.swift in Sources */,
+				C7A5A66CF6F0BF2B5F24974B /* TestShareEventLogger.swift in Sources */,
+				F092DC92ADCDA011C0DC32E8 /* TestShareUtility.swift in Sources */,
+				2DEE3A182F3237D72A5B3E4A /* TestSharingDelegate.swift in Sources */,
+				8A2D3C0633CAB9B8673683C6 /* TestSocialComposeViewControllerFactory.swift in Sources */,
+				BB20AABBC8E8FAB13176636B /* TestUserInterfaceStringProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B47E2299A77D481FEC10ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit-Static";
+			targetProxy = 84E09D95C5D00483F5515E1D /* PBXContainerItemProxy */;
+		};
+		2D633C21944EB6BBCDB1C803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Static";
+			targetProxy = B0F5DFB70872F71070C125A4 /* PBXContainerItemProxy */;
+		};
+		5622161B8864484D69206B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C51C77BB91A01A0AC3115DA /* FBSDKShareKit-Dynamic */;
+			targetProxy = F274AC9A8825988C336B3193 /* PBXContainerItemProxy */;
+		};
+		5A62041B1B7BB23AB1BB104F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit-Dynamic";
+			targetProxy = C673DA003F844CC6C22302F1 /* PBXContainerItemProxy */;
+		};
+		9908E3485C96351A1D289AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Dynamic";
+			targetProxy = 3D11C953E5FE4262B8CEB287 /* PBXContainerItemProxy */;
+		};
+		E8BE97BF8BB7CB3C2D845171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestTools;
+			targetProxy = 4861FB978C4416EAB1FF88E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D5CE7BA913E079B2E05287E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206EEC168BF476AF9A7B8B75 /* FBSDKShareKit-Static.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKShareKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		5CB1A2E2C8B378F9D6E457F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453A72AE7ECF29B721108B9F /* FBSDKShareKitTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = FBSDKShareKitTests/Info.plist;
+			};
+			name = Release;
+		};
+		D39C0D2F4DE903B863027475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4D084321DC68182B476082 /* Debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		DE6522BDCCB91B6511571340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFB6376294D1562A0B2D393 /* Release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E301E99BFAF1EB2F7934356E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206EEC168BF476AF9A7B8B75 /* FBSDKShareKit-Static.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKShareKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E3C606AD77D34BDAF4E3E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A6F3C5C27FA0BE54A6B8CA /* FBSDKShareKit-Dynamic.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKShareKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F5BD34DD09E17BA008DD0DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453A72AE7ECF29B721108B9F /* FBSDKShareKitTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = FBSDKShareKitTests/Info.plist;
+			};
+			name = Debug;
+		};
+		F7ED48477840D3C89F8698AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A6F3C5C27FA0BE54A6B8CA /* FBSDKShareKit-Dynamic.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSDKShareKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D651C347FF60EE9CE32442 /* Build configuration list for PBXProject "FBSDKShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39C0D2F4DE903B863027475 /* Debug */,
+				DE6522BDCCB91B6511571340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAD9B43FD8A79A878A83C2E1 /* Build configuration list for PBXNativeTarget "FBSDKShareKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BD34DD09E17BA008DD0DB5 /* Debug */,
+				5CB1A2E2C8B378F9D6E457F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4EFD9362BCC2F3F0382FE34 /* Build configuration list for PBXNativeTarget "FBSDKShareKit-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C606AD77D34BDAF4E3E537 /* Debug */,
+				F7ED48477840D3C89F8698AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C25C24B0BC58FD9353421932 /* Build configuration list for PBXNativeTarget "FBSDKShareKit-Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E301E99BFAF1EB2F7934356E /* Debug */,
+				3D5CE7BA913E079B2E05287E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB54C6AB33E20878AB754648 /* Project object */;
+}

@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0027802B3E97E2A2DC28C414 /* AEMReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B98F90F045C9BC13D43AC3 /* AEMReporter.swift */; };
+		01D4C4B0AB7CBC15EDCBB67F /* AEMRequestBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755A86218BCD1A75CD5D134 /* AEMRequestBodyTests.swift */; };
+		02D44406AC30507B60D9887D /* AEMNetworker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C11F25DF2295DA0FF37C7 /* AEMNetworker.swift */; };
+		17BE6B8AF129C0E60A0D3566 /* AEMReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD48C91822718C8566CA75 /* AEMReporterTests.swift */; };
+		1952D7D13F99C8A060364D68 /* AEMAdvertiserRuleMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC349070E113A4F7707371B6 /* AEMAdvertiserRuleMatching.swift */; };
+		19AEF0D35FFE7AC1411CA202 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F22D6BDF30BDBBE9D73D30 /* MissingDependenciesError.swift */; };
+		1E2D2EAB1E090BF416CE7E99 /* SKAdNetworkReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44F15CED82D2EA263BDD2F /* SKAdNetworkReporting.swift */; };
+		30DF04711CA5AE5E5AE00248 /* MissingDependenciesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F22D6BDF30BDBBE9D73D30 /* MissingDependenciesError.swift */; };
+		37AEAD22866C1E7CC7764220 /* AEMUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD3F77533CD44D3F579561 /* AEMUtility.swift */; };
+		3C1D01633F620D3F2C7B29E1 /* AEMAdvertiserSingleEntryRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D498A535FCC1DE3BD78B3 /* AEMAdvertiserSingleEntryRule.swift */; };
+		4F8CA0491518283D1CF8F65F /* AEMUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD3F77533CD44D3F579561 /* AEMUtility.swift */; };
+		528BA93691315AAE905B36F0 /* AEMRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28F1A8BFDDF9486630BC1A /* AEMRequestBody.swift */; };
+		54E688A7EA317BD5BAF393E6 /* SampleAEMMultiEntryRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9FC1D91E22B500017F649 /* SampleAEMMultiEntryRules.swift */; };
+		561A15AEE691B594BF4BE74D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */; };
+		5630949F273EEA4D536894D9 /* SampleAEMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177A5533D7CFF825F97ECA0 /* SampleAEMData.swift */; };
+		57EA13E2808407E4A9D9E438 /* AEMConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465EAA90A636492013935200 /* AEMConfiguration.swift */; };
+		5B1D68B8E0B3E68FDCE7727D /* SKAdNetworkReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44F15CED82D2EA263BDD2F /* SKAdNetworkReporting.swift */; };
+		5D108354BD0C4C2357CA186F /* DependentAsTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E28B7572A0D11FA0013FAA /* DependentAsTypeTests.swift */; };
+		68C77FB763E0733DBAE3E0CF /* PrivacyManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8318DE56CBE3505B002FB /* PrivacyManifestTests.swift */; };
+		6C502D275E88673D6B6EBA4F /* AEMAdvertiserRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F8F82379D78800350488D /* AEMAdvertiserRuleFactory.swift */; };
+		70B0FC2E71EAFE609C138E89 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */; };
+		73125F11BCE559D14EE0F5BB /* AEMEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126E8EBFFEC078C6B00DBAF /* AEMEventTests.swift */; };
+		736295E98AA216B1634E1A36 /* TestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E36F1A64F5018E099A777 /* TestBundle.swift */; };
+		7C15398E0B92F0A99548AA17 /* SampleAEMSingleEntryRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE582199B8FBA1789FEC3E0 /* SampleAEMSingleEntryRules.swift */; };
+		7D4D0AA10CB8798F220D9C19 /* AEMAdvertiserRuleOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */; };
+		7F380115247D592E327446F9 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */; };
+		8719E83968E2D70C0CB6CAFA /* AEMAdvertiserRuleOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */; };
+		8874C39BCED29D2485A982BA /* AEMInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33CC3855D0A7A70B8DC0CF /* AEMInvocation.swift */; };
+		8A3C0A5EC53BF530B09CC191 /* AEMAdvertiserMultiEntryRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A152A0EC3BD57E48F165E /* AEMAdvertiserMultiEntryRule.swift */; };
+		8DAC7D6C502E68EF5336F172 /* AEMRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28F1A8BFDDF9486630BC1A /* AEMRequestBody.swift */; };
+		8F0B18B6159B32C535F7128B /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B8DADD5B1CA40713B90D1 /* DependentAsType.swift */; };
+		8FC639D9531BD3021A7233D6 /* AEMEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB8144704A61AAF460E80F /* AEMEvent.swift */; };
+		91C0281971980A7B4535DF32 /* AEMSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9503FB6669E4FA3C55AAA21 /* AEMSettingsTests.swift */; };
+		92A75FC874F8470A8B25D944 /* TestInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A8648B7AF86852325E167 /* TestInvocation.swift */; };
+		937DD88D757149302DACB1B2 /* AEMAdvertiserRuleProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21A7A1E25792D3B2EA13E83 /* AEMAdvertiserRuleProviding.swift */; };
+		93FD009A1FD664A489CA5522 /* AEMConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465EAA90A636492013935200 /* AEMConfiguration.swift */; };
+		961B53E8374584F5089A84D2 /* AEMAdvertiserRuleFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A973B13F423ABA9115B8B /* AEMAdvertiserRuleFactoryTests.swift */; };
+		9A53A16D623F2B865FDD6792 /* AEMRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACEF4E3ECA37288D2B01E0 /* AEMRule.swift */; };
+		9CD5B27F696CA3B49E931C7A /* FBAEMKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DA1EA92FD3A10728E5E87C2 /* AEMAdvertiserMultiEntryRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A152A0EC3BD57E48F165E /* AEMAdvertiserMultiEntryRule.swift */; };
+		A250E741B08F53944E2E66BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 606DB09FE9B9C5CFA3A71DA7 /* libz.tbd */; };
+		A2AC255D8BEC81100C5AAF08 /* SampleAEMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34B255947902579C7BEFE9 /* SampleAEMError.swift */; };
+		A662E70B03C9F445B867C85A /* AEMAdvertiserRuleProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21A7A1E25792D3B2EA13E83 /* AEMAdvertiserRuleProviding.swift */; };
+		A6A5848541A3D16BA7FF6D94 /* AEMSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EEBFC1429761594C288FCF /* AEMSettings.swift */; };
+		A6B2E608F2A2C5DE172DA5A3 /* AEMInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33CC3855D0A7A70B8DC0CF /* AEMInvocation.swift */; };
+		A989539C6759514CAA7B5F15 /* AEMNetworker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C11F25DF2295DA0FF37C7 /* AEMNetworker.swift */; };
+		AAC74288A29689E797B393BF /* DependentAsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B8DADD5B1CA40713B90D1 /* DependentAsType.swift */; };
+		B178F645FDAB6525E284C6B6 /* AEMUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0BF511D65AB939FE06E20 /* AEMUtilityTests.swift */; };
+		B59D1BBEC2D0FF370D4C8202 /* AEMAdvertiserRuleMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC349070E113A4F7707371B6 /* AEMAdvertiserRuleMatching.swift */; };
+		BA8B6DB6985FCE8614D8FE52 /* TestTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279293F2FF5EF656DD2C54D /* TestTools.framework */; };
+		BD66383FC08E68AD69B31EC0 /* AEMAdvertiserSingleEntryRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F76184C78D8BCE317A077B /* AEMAdvertiserSingleEntryRuleTests.swift */; };
+		C740173B9ABE8084261AF3A8 /* SampleAEMInvocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50412F133CE2A6A7D5150D /* SampleAEMInvocations.swift */; };
+		C9C8EB3455749C52FCE30E06 /* AEMInvocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C1FFA0E668B318E20FCEC0 /* AEMInvocationTests.swift */; };
+		CDA814E50E7B72671705EC9A /* AEMSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EEBFC1429761594C288FCF /* AEMSettings.swift */; };
+		D1898CEB1268A2F780FA824C /* AEMAdvertiserRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F8F82379D78800350488D /* AEMAdvertiserRuleFactory.swift */; };
+		DC144776A085BBAE57FE3B23 /* AEMAdvertiserMultiEntryRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B057D5196DFE92A4DB306 /* AEMAdvertiserMultiEntryRuleTests.swift */; };
+		E4C2B6C43C21201696C7A0A2 /* SampleAEMConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA128CAAC00A5F44E3FACEF /* SampleAEMConfigurations.swift */; };
+		E7E54C28CF9D389A64B0B8B6 /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */; };
+		EE385608ACA0F7F181C0F03C /* AEMNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB794A6A76B725BBD019DA /* AEMNetworking.swift */; };
+		F0A1DD28AD345D10F1F6D693 /* AEMRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACEF4E3ECA37288D2B01E0 /* AEMRule.swift */; };
+		F3457D7159ADB06620BA5F54 /* AEMAdvertiserSingleEntryRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D498A535FCC1DE3BD78B3 /* AEMAdvertiserSingleEntryRule.swift */; };
+		FB2ED4B8A9D7F7BEFA0891DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55624583B4F08EB7CA742BFA /* UIKit.framework */; };
+		FC96D3627E3CC140C8B64E37 /* AEMConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF97D130F84518CF735123 /* AEMConfigurationTests.swift */; };
+		FD385324CA1406FEB6590C7D /* AEMEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB8144704A61AAF460E80F /* AEMEvent.swift */; };
+		FE21D984551DC63CAE892ABB /* AEMNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB794A6A76B725BBD019DA /* AEMNetworking.swift */; };
+		FEBCA20093CD579A17313BCD /* AEMRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA581F1A07637D334FE9644 /* AEMRuleTests.swift */; };
+		FFA54ABED9E76B4AAF98CD5C /* AEMReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B98F90F045C9BC13D43AC3 /* AEMReporter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131CABE29B32CC6E5BD66B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2DB862A2534E9BCF64D92F /* TestTools */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE1BFF550650C49854D563A;
+			remoteInfo = TestTools;
+		};
+		1D04E9DB888A268EBFC36AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 563D03839E2E11C7E6A47941;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		3A294697780521D4D62BCE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2DB862A2534E9BCF64D92F /* TestTools */;
+			proxyType = 2;
+			remoteGlobalIDString = E40113A8B281C6A908AEFA21;
+			remoteInfo = TestTools;
+		};
+		8482356B3936E7C5A99A1652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = C82569269F0990FC515167BC;
+			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
+		};
+		A4A6EDA6F5283B5ADCA11413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F903DA9EDB249CBB8F19937;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		BF1FD63BDC14A5DB7CAA14FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = FFB1B135B1C613F878D13E07;
+			remoteInfo = "FBSDKCoreKit_Basics-Static";
+		};
+		E4FF00C76AF98FF926DA4C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B34DA976160ED761091E5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BC29DBCBDBCD6E9C7B5EA2;
+			remoteInfo = "FBAEMKit-Dynamic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F26174E487A566A3234F0183 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9CD5B27F696CA3B49E931C7A /* FBAEMKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		036D498A535FCC1DE3BD78B3 /* AEMAdvertiserSingleEntryRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserSingleEntryRule.swift; sourceTree = "<group>"; };
+		04E28B7572A0D11FA0013FAA /* DependentAsTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsTypeTests.swift; sourceTree = "<group>"; };
+		08EA45F62800A6094DE6FE23 /* FBAEMKitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FBAEMKitTests.xcconfig; sourceTree = "<group>"; };
+		0B2DB862A2534E9BCF64D92F /* TestTools */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestTools; path = ../TestTools/TestTools.xcodeproj; sourceTree = "<group>"; };
+		10B98F90F045C9BC13D43AC3 /* AEMReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMReporter.swift; sourceTree = "<group>"; };
+		200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit_Basics; path = ../FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.xcodeproj; sourceTree = "<group>"; };
+		2D50412F133CE2A6A7D5150D /* SampleAEMInvocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMInvocations.swift; sourceTree = "<group>"; };
+		4177A5533D7CFF825F97ECA0 /* SampleAEMData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMData.swift; sourceTree = "<group>"; };
+		43F76184C78D8BCE317A077B /* AEMAdvertiserSingleEntryRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserSingleEntryRuleTests.swift; sourceTree = "<group>"; };
+		465EAA90A636492013935200 /* AEMConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMConfiguration.swift; sourceTree = "<group>"; };
+		487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleOperator.swift; sourceTree = "<group>"; };
+		4BA128CAAC00A5F44E3FACEF /* SampleAEMConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMConfigurations.swift; sourceTree = "<group>"; };
+		53F22D6BDF30BDBBE9D73D30 /* MissingDependenciesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingDependenciesError.swift; sourceTree = "<group>"; };
+		55624583B4F08EB7CA742BFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59E8318DE56CBE3505B002FB /* PrivacyManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestTests.swift; sourceTree = "<group>"; };
+		606DB09FE9B9C5CFA3A71DA7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		618F8F82379D78800350488D /* AEMAdvertiserRuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleFactory.swift; sourceTree = "<group>"; };
+		61F9FC1D91E22B500017F649 /* SampleAEMMultiEntryRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMMultiEntryRules.swift; sourceTree = "<group>"; };
+		687E36F1A64F5018E099A777 /* TestBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBundle.swift; sourceTree = "<group>"; };
+		6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBAEMKit-Dynamic.xcconfig"; sourceTree = "<group>"; };
+		7ABB8144704A61AAF460E80F /* AEMEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMEvent.swift; sourceTree = "<group>"; };
+		7B44F15CED82D2EA263BDD2F /* SKAdNetworkReporting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKAdNetworkReporting.swift; sourceTree = "<group>"; };
+		7BE582199B8FBA1789FEC3E0 /* SampleAEMSingleEntryRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMSingleEntryRules.swift; sourceTree = "<group>"; };
+		7C28F1A8BFDDF9486630BC1A /* AEMRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMRequestBody.swift; sourceTree = "<group>"; };
+		7CA581F1A07637D334FE9644 /* AEMRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMRuleTests.swift; sourceTree = "<group>"; };
+		7EBD48C91822718C8566CA75 /* AEMReporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMReporterTests.swift; sourceTree = "<group>"; };
+		831B8DADD5B1CA40713B90D1 /* DependentAsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentAsType.swift; sourceTree = "<group>"; };
+		8A5792B56B6883E0AF80A833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1A8648B7AF86852325E167 /* TestInvocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInvocation.swift; sourceTree = "<group>"; };
+		8D4A973B13F423ABA9115B8B /* AEMAdvertiserRuleFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleFactoryTests.swift; sourceTree = "<group>"; };
+		8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		945BD2A9E1C0BA3481309FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAEMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB794A6A76B725BBD019DA /* AEMNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMNetworking.swift; sourceTree = "<group>"; };
+		A126E8EBFFEC078C6B00DBAF /* AEMEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMEventTests.swift; sourceTree = "<group>"; };
+		A6C1FFA0E668B318E20FCEC0 /* AEMInvocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMInvocationTests.swift; sourceTree = "<group>"; };
+		A77A152A0EC3BD57E48F165E /* AEMAdvertiserMultiEntryRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserMultiEntryRule.swift; sourceTree = "<group>"; };
+		AC349070E113A4F7707371B6 /* AEMAdvertiserRuleMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleMatching.swift; sourceTree = "<group>"; };
+		BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBAEMKit-Static.xcconfig"; sourceTree = "<group>"; };
+		C04C11F25DF2295DA0FF37C7 /* AEMNetworker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMNetworker.swift; sourceTree = "<group>"; };
+		C93D185ADDA6920863429EAB /* FBAEMKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FBAEMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CD3F77533CD44D3F579561 /* AEMUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMUtility.swift; sourceTree = "<group>"; };
+		D9EEBFC1429761594C288FCF /* AEMSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMSettings.swift; sourceTree = "<group>"; };
+		DBAE01E16FFCFC62FCA175D0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DC33CC3855D0A7A70B8DC0CF /* AEMInvocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMInvocation.swift; sourceTree = "<group>"; };
+		E8F0BF511D65AB939FE06E20 /* AEMUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMUtilityTests.swift; sourceTree = "<group>"; };
+		E9503FB6669E4FA3C55AAA21 /* AEMSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMSettingsTests.swift; sourceTree = "<group>"; };
+		F21A7A1E25792D3B2EA13E83 /* AEMAdvertiserRuleProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleProviding.swift; sourceTree = "<group>"; };
+		F22C0E3F054B4789ECCBD771 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		F755A86218BCD1A75CD5D134 /* AEMRequestBodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMRequestBodyTests.swift; sourceTree = "<group>"; };
+		FA8B057D5196DFE92A4DB306 /* AEMAdvertiserMultiEntryRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserMultiEntryRuleTests.swift; sourceTree = "<group>"; };
+		FC34B255947902579C7BEFE9 /* SampleAEMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAEMError.swift; sourceTree = "<group>"; };
+		FCACEF4E3ECA37288D2B01E0 /* AEMRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMRule.swift; sourceTree = "<group>"; };
+		FD78FF986842A862DDF4CD50 /* FBAEMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAEMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCF97D130F84518CF735123 /* AEMConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMConfigurationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379134C22D803E3360D615A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E54C28CF9D389A64B0B8B6 /* FBAEMKit.framework in Frameworks */,
+				BA8B6DB6985FCE8614D8FE52 /* TestTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93AF827E0B10D0FD8B9F8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F380115247D592E327446F9 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */,
+				FB2ED4B8A9D7F7BEFA0891DA /* UIKit.framework in Frameworks */,
+				A250E741B08F53944E2E66BD /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02339BE279ED601D7294F40F /* FBAEMKit */ = {
+			isa = PBXGroup;
+			children = (
+				A77A152A0EC3BD57E48F165E /* AEMAdvertiserMultiEntryRule.swift */,
+				618F8F82379D78800350488D /* AEMAdvertiserRuleFactory.swift */,
+				AC349070E113A4F7707371B6 /* AEMAdvertiserRuleMatching.swift */,
+				487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */,
+				F21A7A1E25792D3B2EA13E83 /* AEMAdvertiserRuleProviding.swift */,
+				036D498A535FCC1DE3BD78B3 /* AEMAdvertiserSingleEntryRule.swift */,
+				465EAA90A636492013935200 /* AEMConfiguration.swift */,
+				7ABB8144704A61AAF460E80F /* AEMEvent.swift */,
+				DC33CC3855D0A7A70B8DC0CF /* AEMInvocation.swift */,
+				C04C11F25DF2295DA0FF37C7 /* AEMNetworker.swift */,
+				9DAB794A6A76B725BBD019DA /* AEMNetworking.swift */,
+				10B98F90F045C9BC13D43AC3 /* AEMReporter.swift */,
+				7C28F1A8BFDDF9486630BC1A /* AEMRequestBody.swift */,
+				FCACEF4E3ECA37288D2B01E0 /* AEMRule.swift */,
+				D9EEBFC1429761594C288FCF /* AEMSettings.swift */,
+				D5CD3F77533CD44D3F579561 /* AEMUtility.swift */,
+				831B8DADD5B1CA40713B90D1 /* DependentAsType.swift */,
+				8A5792B56B6883E0AF80A833 /* Info.plist */,
+				53F22D6BDF30BDBBE9D73D30 /* MissingDependenciesError.swift */,
+				8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */,
+				7B44F15CED82D2EA263BDD2F /* SKAdNetworkReporting.swift */,
+			);
+			path = FBAEMKit;
+			sourceTree = "<group>";
+		};
+		1F7F449005C9F02F03C266CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4BA128CAAC00A5F44E3FACEF /* SampleAEMConfigurations.swift */,
+				4177A5533D7CFF825F97ECA0 /* SampleAEMData.swift */,
+				FC34B255947902579C7BEFE9 /* SampleAEMError.swift */,
+				2D50412F133CE2A6A7D5150D /* SampleAEMInvocations.swift */,
+				61F9FC1D91E22B500017F649 /* SampleAEMMultiEntryRules.swift */,
+				7BE582199B8FBA1789FEC3E0 /* SampleAEMSingleEntryRules.swift */,
+				687E36F1A64F5018E099A777 /* TestBundle.swift */,
+				8D1A8648B7AF86852325E167 /* TestInvocation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5919ABF926563DFFE31F3F4B /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */,
+				BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */,
+				08EA45F62800A6094DE6FE23 /* FBAEMKitTests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		5FAE6505F040D2AFCF3EED48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1279293F2FF5EF656DD2C54D /* TestTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86151CB5D63D77CFFDF9979A /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */,
+				0B2DB862A2534E9BCF64D92F /* TestTools */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		889A44E116F8C629A977FDD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */,
+				FD78FF986842A862DDF4CD50 /* FBAEMKit.framework */,
+				C93D185ADDA6920863429EAB /* FBAEMKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99262E69DE75AA3C61EA95C6 = {
+			isa = PBXGroup;
+			children = (
+				B3BB5AB728211A4EC0B5FABF /* Configuration */,
+				5919ABF926563DFFE31F3F4B /* Configurations */,
+				02339BE279ED601D7294F40F /* FBAEMKit */,
+				9D457979EE82184412FC7F96 /* FBAEMKitTests */,
+				B8446904CAC61BC8F72AE136 /* Frameworks */,
+				889A44E116F8C629A977FDD4 /* Products */,
+				86151CB5D63D77CFFDF9979A /* Projects */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		9D457979EE82184412FC7F96 /* FBAEMKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B057D5196DFE92A4DB306 /* AEMAdvertiserMultiEntryRuleTests.swift */,
+				8D4A973B13F423ABA9115B8B /* AEMAdvertiserRuleFactoryTests.swift */,
+				43F76184C78D8BCE317A077B /* AEMAdvertiserSingleEntryRuleTests.swift */,
+				FDCF97D130F84518CF735123 /* AEMConfigurationTests.swift */,
+				A126E8EBFFEC078C6B00DBAF /* AEMEventTests.swift */,
+				A6C1FFA0E668B318E20FCEC0 /* AEMInvocationTests.swift */,
+				7EBD48C91822718C8566CA75 /* AEMReporterTests.swift */,
+				F755A86218BCD1A75CD5D134 /* AEMRequestBodyTests.swift */,
+				7CA581F1A07637D334FE9644 /* AEMRuleTests.swift */,
+				E9503FB6669E4FA3C55AAA21 /* AEMSettingsTests.swift */,
+				E8F0BF511D65AB939FE06E20 /* AEMUtilityTests.swift */,
+				04E28B7572A0D11FA0013FAA /* DependentAsTypeTests.swift */,
+				945BD2A9E1C0BA3481309FC8 /* Info.plist */,
+				59E8318DE56CBE3505B002FB /* PrivacyManifestTests.swift */,
+				1F7F449005C9F02F03C266CD /* Helpers */,
+			);
+			path = FBAEMKitTests;
+			sourceTree = "<group>";
+		};
+		B3BB5AB728211A4EC0B5FABF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE01E16FFCFC62FCA175D0 /* Debug.xcconfig */,
+				F22C0E3F054B4789ECCBD771 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = Configurations/Shared/Configuration;
+			sourceTree = "<group>";
+		};
+		B8446904CAC61BC8F72AE136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606DB09FE9B9C5CFA3A71DA7 /* libz.tbd */,
+				55624583B4F08EB7CA742BFA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C0549D4778BEDE20A9D143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */,
+				052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics-Static.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C47B9912935D5C80C951296 /* FBAEMKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF0224B6C10E00B886236C6 /* Build configuration list for PBXNativeTarget "FBAEMKitTests" */;
+			buildPhases = (
+				1D2C0A68DA82F4A1091EEC23 /* Sources */,
+				379134C22D803E3360D615A9 /* Frameworks */,
+				F26174E487A566A3234F0183 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E7042A3B15EA627BA31128 /* PBXTargetDependency */,
+				92FAF1EB598D0A415A682AF8 /* PBXTargetDependency */,
+			);
+			name = FBAEMKitTests;
+			productName = FBAEMKitTests;
+			productReference = C93D185ADDA6920863429EAB /* FBAEMKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B208B1410A6473B4080CC3E /* FBAEMKit-Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816CCDA3831170D8C01F3E27 /* Build configuration list for PBXNativeTarget "FBAEMKit-Static" */;
+			buildPhases = (
+				321CF230492C8D59FC62FFBE /* Run Swiftlint */,
+				3D39F137B5080C3AE385BAF3 /* Sources */,
+				BBC60DDC0EA8FC7F320A72F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAB767BA955311AE0E8942B /* PBXTargetDependency */,
+			);
+			name = "FBAEMKit-Static";
+			productName = "FBAEMKit-Static";
+			productReference = FD78FF986842A862DDF4CD50 /* FBAEMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6BC29DBCBDBCD6E9C7B5EA2 /* FBAEMKit-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F389663682B682610CDA9CC3 /* Build configuration list for PBXNativeTarget "FBAEMKit-Dynamic" */;
+			buildPhases = (
+				A83F2AEF7D2252DC7046DED2 /* Run Swiftlint */,
+				0CABBA55CDC3EFFD30009D0A /* Sources */,
+				89551B86F2FCD80D5264FB54 /* Resources */,
+				C93AF827E0B10D0FD8B9F8FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F14C7342D0EB3BC420AE45 /* PBXTargetDependency */,
+			);
+			name = "FBAEMKit-Dynamic";
+			productName = "FBAEMKit-Dynamic";
+			productReference = 9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B34DA976160ED761091E5B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F56E44B6C487CBF750D00F10 /* Build configuration list for PBXProject "FBAEMKit" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 99262E69DE75AA3C61EA95C6;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2C0549D4778BEDE20A9D143 /* Products */;
+					ProjectRef = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+				},
+				{
+					ProductGroup = 5FAE6505F040D2AFCF3EED48 /* Products */;
+					ProjectRef = 0B2DB862A2534E9BCF64D92F /* TestTools */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E6BC29DBCBDBCD6E9C7B5EA2 /* FBAEMKit-Dynamic */,
+				9B208B1410A6473B4080CC3E /* FBAEMKit-Static */,
+				1C47B9912935D5C80C951296 /* FBAEMKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics-Static.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Static.framework";
+			remoteRef = BF1FD63BDC14A5DB7CAA14FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1279293F2FF5EF656DD2C54D /* TestTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestTools.framework;
+			remoteRef = 3A294697780521D4D62BCE71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FBSDKCoreKit_Basics-Dynamic.framework";
+			remoteRef = 8482356B3936E7C5A99A1652 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89551B86F2FCD80D5264FB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B0FC2E71EAFE609C138E89 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC60DDC0EA8FC7F320A72F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A15AEE691B594BF4BE74D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321CF230492C8D59FC62FFBE /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+		A83F2AEF7D2252DC7046DED2 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../scripts/build_phase_swiftlint.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CABBA55CDC3EFFD30009D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA1EA92FD3A10728E5E87C2 /* AEMAdvertiserMultiEntryRule.swift in Sources */,
+				D1898CEB1268A2F780FA824C /* AEMAdvertiserRuleFactory.swift in Sources */,
+				1952D7D13F99C8A060364D68 /* AEMAdvertiserRuleMatching.swift in Sources */,
+				8719E83968E2D70C0CB6CAFA /* AEMAdvertiserRuleOperator.swift in Sources */,
+				937DD88D757149302DACB1B2 /* AEMAdvertiserRuleProviding.swift in Sources */,
+				3C1D01633F620D3F2C7B29E1 /* AEMAdvertiserSingleEntryRule.swift in Sources */,
+				57EA13E2808407E4A9D9E438 /* AEMConfiguration.swift in Sources */,
+				8FC639D9531BD3021A7233D6 /* AEMEvent.swift in Sources */,
+				8874C39BCED29D2485A982BA /* AEMInvocation.swift in Sources */,
+				A989539C6759514CAA7B5F15 /* AEMNetworker.swift in Sources */,
+				FE21D984551DC63CAE892ABB /* AEMNetworking.swift in Sources */,
+				FFA54ABED9E76B4AAF98CD5C /* AEMReporter.swift in Sources */,
+				528BA93691315AAE905B36F0 /* AEMRequestBody.swift in Sources */,
+				F0A1DD28AD345D10F1F6D693 /* AEMRule.swift in Sources */,
+				CDA814E50E7B72671705EC9A /* AEMSettings.swift in Sources */,
+				4F8CA0491518283D1CF8F65F /* AEMUtility.swift in Sources */,
+				AAC74288A29689E797B393BF /* DependentAsType.swift in Sources */,
+				19AEF0D35FFE7AC1411CA202 /* MissingDependenciesError.swift in Sources */,
+				1E2D2EAB1E090BF416CE7E99 /* SKAdNetworkReporting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2C0A68DA82F4A1091EEC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC144776A085BBAE57FE3B23 /* AEMAdvertiserMultiEntryRuleTests.swift in Sources */,
+				961B53E8374584F5089A84D2 /* AEMAdvertiserRuleFactoryTests.swift in Sources */,
+				BD66383FC08E68AD69B31EC0 /* AEMAdvertiserSingleEntryRuleTests.swift in Sources */,
+				FC96D3627E3CC140C8B64E37 /* AEMConfigurationTests.swift in Sources */,
+				73125F11BCE559D14EE0F5BB /* AEMEventTests.swift in Sources */,
+				C9C8EB3455749C52FCE30E06 /* AEMInvocationTests.swift in Sources */,
+				17BE6B8AF129C0E60A0D3566 /* AEMReporterTests.swift in Sources */,
+				01D4C4B0AB7CBC15EDCBB67F /* AEMRequestBodyTests.swift in Sources */,
+				FEBCA20093CD579A17313BCD /* AEMRuleTests.swift in Sources */,
+				91C0281971980A7B4535DF32 /* AEMSettingsTests.swift in Sources */,
+				B178F645FDAB6525E284C6B6 /* AEMUtilityTests.swift in Sources */,
+				5D108354BD0C4C2357CA186F /* DependentAsTypeTests.swift in Sources */,
+				68C77FB763E0733DBAE3E0CF /* PrivacyManifestTests.swift in Sources */,
+				E4C2B6C43C21201696C7A0A2 /* SampleAEMConfigurations.swift in Sources */,
+				5630949F273EEA4D536894D9 /* SampleAEMData.swift in Sources */,
+				A2AC255D8BEC81100C5AAF08 /* SampleAEMError.swift in Sources */,
+				C740173B9ABE8084261AF3A8 /* SampleAEMInvocations.swift in Sources */,
+				54E688A7EA317BD5BAF393E6 /* SampleAEMMultiEntryRules.swift in Sources */,
+				7C15398E0B92F0A99548AA17 /* SampleAEMSingleEntryRules.swift in Sources */,
+				736295E98AA216B1634E1A36 /* TestBundle.swift in Sources */,
+				92A75FC874F8470A8B25D944 /* TestInvocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39F137B5080C3AE385BAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3C0A5EC53BF530B09CC191 /* AEMAdvertiserMultiEntryRule.swift in Sources */,
+				6C502D275E88673D6B6EBA4F /* AEMAdvertiserRuleFactory.swift in Sources */,
+				B59D1BBEC2D0FF370D4C8202 /* AEMAdvertiserRuleMatching.swift in Sources */,
+				7D4D0AA10CB8798F220D9C19 /* AEMAdvertiserRuleOperator.swift in Sources */,
+				A662E70B03C9F445B867C85A /* AEMAdvertiserRuleProviding.swift in Sources */,
+				F3457D7159ADB06620BA5F54 /* AEMAdvertiserSingleEntryRule.swift in Sources */,
+				93FD009A1FD664A489CA5522 /* AEMConfiguration.swift in Sources */,
+				FD385324CA1406FEB6590C7D /* AEMEvent.swift in Sources */,
+				A6B2E608F2A2C5DE172DA5A3 /* AEMInvocation.swift in Sources */,
+				02D44406AC30507B60D9887D /* AEMNetworker.swift in Sources */,
+				EE385608ACA0F7F181C0F03C /* AEMNetworking.swift in Sources */,
+				0027802B3E97E2A2DC28C414 /* AEMReporter.swift in Sources */,
+				8DAC7D6C502E68EF5336F172 /* AEMRequestBody.swift in Sources */,
+				9A53A16D623F2B865FDD6792 /* AEMRule.swift in Sources */,
+				A6A5848541A3D16BA7FF6D94 /* AEMSettings.swift in Sources */,
+				37AEAD22866C1E7CC7764220 /* AEMUtility.swift in Sources */,
+				8F0B18B6159B32C535F7128B /* DependentAsType.swift in Sources */,
+				30DF04711CA5AE5E5AE00248 /* MissingDependenciesError.swift in Sources */,
+				5B1D68B8E0B3E68FDCE7727D /* SKAdNetworkReporting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F14C7342D0EB3BC420AE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Dynamic";
+			targetProxy = 1D04E9DB888A268EBFC36AD9 /* PBXContainerItemProxy */;
+		};
+		3AAB767BA955311AE0E8942B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FBSDKCoreKit_Basics-Static";
+			targetProxy = A4A6EDA6F5283B5ADCA11413 /* PBXContainerItemProxy */;
+		};
+		54E7042A3B15EA627BA31128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BC29DBCBDBCD6E9C7B5EA2 /* FBAEMKit-Dynamic */;
+			targetProxy = E4FF00C76AF98FF926DA4C94 /* PBXContainerItemProxy */;
+		};
+		92FAF1EB598D0A415A682AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestTools;
+			targetProxy = 131CABE29B32CC6E5BD66B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BD4A6939B2EBF765C56D4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		45606D72A334B82934D1869A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EA45F62800A6094DE6FE23 /* FBAEMKitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBAEMKitTests/Info.plist;
+			};
+			name = Debug;
+		};
+		71296C696C8E7A0D6604065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8598C7363867AAA9C2243927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		A1987CC131F3A9D8CA874240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E79BB172E1D9CFFA7950B0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAE01E16FFCFC62FCA175D0 /* Debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		EA83C676E943EE1C8A9A30A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C0E3F054B4789ECCBD771 /* Release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F0EA988E06235E291813258D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EA45F62800A6094DE6FE23 /* FBAEMKitTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBAEMKitTests/Info.plist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816CCDA3831170D8C01F3E27 /* Build configuration list for PBXNativeTarget "FBAEMKit-Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1987CC131F3A9D8CA874240 /* Debug */,
+				8598C7363867AAA9C2243927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABF0224B6C10E00B886236C6 /* Build configuration list for PBXNativeTarget "FBAEMKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45606D72A334B82934D1869A /* Debug */,
+				F0EA988E06235E291813258D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F389663682B682610CDA9CC3 /* Build configuration list for PBXNativeTarget "FBAEMKit-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71296C696C8E7A0D6604065E /* Debug */,
+				1BD4A6939B2EBF765C56D4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F56E44B6C487CBF750D00F10 /* Build configuration list for PBXProject "FBAEMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BB172E1D9CFFA7950B0DE /* Debug */,
+				EA83C676E943EE1C8A9A30A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B34DA976160ED761091E5B4 /* Project object */;
+}
