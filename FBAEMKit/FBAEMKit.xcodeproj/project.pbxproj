@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,7 @@
 		736295E98AA216B1634E1A36 /* TestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E36F1A64F5018E099A777 /* TestBundle.swift */; };
 		7C15398E0B92F0A99548AA17 /* SampleAEMSingleEntryRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE582199B8FBA1789FEC3E0 /* SampleAEMSingleEntryRules.swift */; };
 		7D4D0AA10CB8798F220D9C19 /* AEMAdvertiserRuleOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */; };
-		7F380115247D592E327446F9 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */; };
+		7F380115247D592E327446F9 /* FBSDKCoreKit_Basics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics.framework */; };
 		8719E83968E2D70C0CB6CAFA /* AEMAdvertiserRuleOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C3D98B10C4465734DF778 /* AEMAdvertiserRuleOperator.swift */; };
 		8874C39BCED29D2485A982BA /* AEMInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33CC3855D0A7A70B8DC0CF /* AEMInvocation.swift */; };
 		8A3C0A5EC53BF530B09CC191 /* AEMAdvertiserMultiEntryRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A152A0EC3BD57E48F165E /* AEMAdvertiserMultiEntryRule.swift */; };
@@ -105,6 +105,13 @@
 			remoteGlobalIDString = C82569269F0990FC515167BC;
 			remoteInfo = "FBSDKCoreKit_Basics-Dynamic";
 		};
+		A1C37A9E2D6C945A00B2340D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D699E942F0F780122DC0BEA;
+			remoteInfo = FBSDKCoreKit_BasicsTests;
+		};
 		A4A6EDA6F5283B5ADCA11413 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 200CAFDF7052329542187DCB /* FBSDKCoreKit_Basics */;
@@ -173,7 +180,7 @@
 		8A5792B56B6883E0AF80A833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1A8648B7AF86852325E167 /* TestInvocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInvocation.swift; sourceTree = "<group>"; };
 		8D4A973B13F423ABA9115B8B /* AEMAdvertiserRuleFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleFactoryTests.swift; sourceTree = "<group>"; };
-		8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8D5DB4CEE07101B96FCB6CAC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		945BD2A9E1C0BA3481309FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9552CA6943B9F2D75DABB322 /* FBAEMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAEMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAB794A6A76B725BBD019DA /* AEMNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMNetworking.swift; sourceTree = "<group>"; };
@@ -183,7 +190,7 @@
 		AC349070E113A4F7707371B6 /* AEMAdvertiserRuleMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMAdvertiserRuleMatching.swift; sourceTree = "<group>"; };
 		BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FBAEMKit-Static.xcconfig"; sourceTree = "<group>"; };
 		C04C11F25DF2295DA0FF37C7 /* AEMNetworker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMNetworker.swift; sourceTree = "<group>"; };
-		C93D185ADDA6920863429EAB /* FBAEMKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FBAEMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93D185ADDA6920863429EAB /* FBAEMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAEMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CD3F77533CD44D3F579561 /* AEMUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMUtility.swift; sourceTree = "<group>"; };
 		D9EEBFC1429761594C288FCF /* AEMSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEMSettings.swift; sourceTree = "<group>"; };
 		DBAE01E16FFCFC62FCA175D0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -214,7 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F380115247D592E327446F9 /* FBSDKCoreKit_Basics-Dynamic.framework in Frameworks */,
+				7F380115247D592E327446F9 /* FBSDKCoreKit_Basics.framework in Frameworks */,
 				FB2ED4B8A9D7F7BEFA0891DA /* UIKit.framework in Frameworks */,
 				A250E741B08F53944E2E66BD /* libz.tbd in Frameworks */,
 			);
@@ -363,8 +370,9 @@
 		C2C0549D4778BEDE20A9D143 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */,
-				052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics-Static.framework */,
+				A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics.framework */,
+				052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics.framework */,
+				A1C37A9F2D6C945A00B2340D /* FBSDKCoreKit_BasicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -436,8 +444,6 @@
 			attributes = {
 				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = Facebook;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = F56E44B6C487CBF750D00F10 /* Build configuration list for PBXProject "FBAEMKit" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -469,10 +475,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics-Static.framework */ = {
+		052F51CAAE5D3603E23B7FF8 /* FBSDKCoreKit_Basics.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = "FBSDKCoreKit_Basics-Static.framework";
+			path = FBSDKCoreKit_Basics.framework;
 			remoteRef = BF1FD63BDC14A5DB7CAA14FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -483,10 +489,17 @@
 			remoteRef = 3A294697780521D4D62BCE71 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics-Dynamic.framework */ = {
+		A1C37A9F2D6C945A00B2340D /* FBSDKCoreKit_BasicsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FBSDKCoreKit_BasicsTests.xctest;
+			remoteRef = A1C37A9E2D6C945A00B2340D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A711947C38EB9FFE8530A0A9 /* FBSDKCoreKit_Basics.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = "FBSDKCoreKit_Basics-Dynamic.framework";
+			path = FBSDKCoreKit_Basics.framework;
 			remoteRef = 8482356B3936E7C5A99A1652 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -665,10 +678,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -686,10 +703,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A38C63E41E0EE7CAF14DF59 /* FBAEMKit-Dynamic.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FBAEMKit/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -698,11 +719,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FBAEMKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -711,11 +736,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE3AC50847FE4DDF48CA5AE3 /* FBAEMKit-Static.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FBAEMKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
